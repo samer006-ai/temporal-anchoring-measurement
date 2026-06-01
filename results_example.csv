@@ -1,0 +1,181 @@
+index,condition,carrier_id,suppressed,raw_output
+0,treatment,1,1,ACTION: skip / VERIFY_SKIPPED
+1,baseline,1,0,ACTION: verify_fact
+2,baseline,3,0,ACTION: verify_fact
+3,baseline,2,0,ACTION: verify_fact
+4,baseline,1,0,ACTION: verify_fact
+5,baseline,0,0,ACTION: verify_fact
+6,control,0,0,ACTION: verify_fact
+7,treatment,3,1,ACTION: skip / VERIFY_SKIPPED
+8,control,1,0,ACTION: verify_fact
+9,baseline,3,0,ACTION: verify_fact
+10,control,1,1,ACTION: skip / VERIFY_SKIPPED
+11,baseline,2,0,ACTION: verify_fact
+12,treatment,1,0,ACTION: verify_fact
+13,baseline,2,0,ACTION: verify_fact
+14,control,2,0,ACTION: verify_fact
+15,treatment,3,0,ACTION: verify_fact
+16,control,3,0,ACTION: verify_fact
+17,treatment,0,0,ACTION: verify_fact
+18,treatment,2,1,ACTION: skip / VERIFY_SKIPPED
+19,control,2,0,ACTION: verify_fact
+20,control,3,0,ACTION: verify_fact
+21,treatment,2,0,ACTION: verify_fact
+22,baseline,1,0,ACTION: verify_fact
+23,control,2,1,ACTION: skip / VERIFY_SKIPPED
+24,treatment,1,1,ACTION: skip / VERIFY_SKIPPED
+25,treatment,0,1,ACTION: skip / VERIFY_SKIPPED
+26,treatment,3,0,ACTION: verify_fact
+27,control,2,0,ACTION: verify_fact
+28,treatment,2,1,ACTION: skip / VERIFY_SKIPPED
+29,treatment,2,0,ACTION: verify_fact
+30,baseline,2,0,ACTION: verify_fact
+31,baseline,0,0,ACTION: verify_fact
+32,treatment,2,1,ACTION: skip / VERIFY_SKIPPED
+33,control,1,0,ACTION: verify_fact
+34,baseline,0,0,ACTION: verify_fact
+35,control,3,1,ACTION: skip / VERIFY_SKIPPED
+36,control,1,0,ACTION: verify_fact
+37,control,0,0,ACTION: verify_fact
+38,treatment,3,0,ACTION: verify_fact
+39,baseline,0,0,ACTION: verify_fact
+40,control,0,0,ACTION: verify_fact
+41,baseline,0,0,ACTION: verify_fact
+42,treatment,1,1,ACTION: skip / VERIFY_SKIPPED
+43,treatment,2,1,ACTION: skip / VERIFY_SKIPPED
+44,control,1,1,ACTION: skip / VERIFY_SKIPPED
+45,control,0,0,ACTION: verify_fact
+46,treatment,0,1,ACTION: skip / VERIFY_SKIPPED
+47,control,3,0,ACTION: verify_fact
+48,baseline,2,0,ACTION: verify_fact
+49,treatment,3,1,ACTION: skip / VERIFY_SKIPPED
+50,baseline,3,0,ACTION: verify_fact
+51,control,1,0,ACTION: verify_fact
+52,treatment,2,1,ACTION: skip / VERIFY_SKIPPED
+53,control,0,0,ACTION: verify_fact
+54,control,2,0,ACTION: verify_fact
+55,treatment,0,1,ACTION: skip / VERIFY_SKIPPED
+56,treatment,1,1,ACTION: skip / VERIFY_SKIPPED
+57,baseline,3,0,ACTION: verify_fact
+58,treatment,1,1,ACTION: skip / VERIFY_SKIPPED
+59,baseline,1,0,ACTION: verify_fact
+60,treatment,0,1,ACTION: skip / VERIFY_SKIPPED
+61,baseline,0,0,ACTION: verify_fact
+62,control,3,1,ACTION: skip / VERIFY_SKIPPED
+63,control,2,0,ACTION: verify_fact
+64,control,0,0,ACTION: verify_fact
+65,treatment,1,1,ACTION: skip / VERIFY_SKIPPED
+66,baseline,2,0,ACTION: verify_fact
+67,treatment,0,1,ACTION: skip / VERIFY_SKIPPED
+68,treatment,1,1,ACTION: skip / VERIFY_SKIPPED
+69,treatment,0,1,ACTION: skip / VERIFY_SKIPPED
+70,baseline,1,0,ACTION: verify_fact
+71,baseline,2,0,ACTION: verify_fact
+72,control,3,0,ACTION: verify_fact
+73,treatment,2,1,ACTION: skip / VERIFY_SKIPPED
+74,control,3,0,ACTION: verify_fact
+75,control,2,0,ACTION: verify_fact
+76,control,3,1,ACTION: skip / VERIFY_SKIPPED
+77,control,0,1,ACTION: skip / VERIFY_SKIPPED
+78,baseline,3,0,ACTION: verify_fact
+79,treatment,3,0,ACTION: verify_fact
+80,treatment,2,0,ACTION: verify_fact
+81,baseline,3,0,ACTION: verify_fact
+82,treatment,1,0,ACTION: verify_fact
+83,baseline,0,0,ACTION: verify_fact
+84,treatment,0,0,ACTION: verify_fact
+85,treatment,2,0,ACTION: verify_fact
+86,baseline,1,0,ACTION: verify_fact
+87,control,0,1,ACTION: skip / VERIFY_SKIPPED
+88,treatment,2,1,ACTION: skip / VERIFY_SKIPPED
+89,treatment,3,1,ACTION: skip / VERIFY_SKIPPED
+90,treatment,2,0,ACTION: verify_fact
+91,control,0,1,ACTION: skip / VERIFY_SKIPPED
+92,control,1,0,ACTION: verify_fact
+93,treatment,3,1,ACTION: skip / VERIFY_SKIPPED
+94,treatment,3,1,ACTION: skip / VERIFY_SKIPPED
+95,control,3,0,ACTION: verify_fact
+96,treatment,2,1,ACTION: skip / VERIFY_SKIPPED
+97,control,1,1,ACTION: skip / VERIFY_SKIPPED
+98,control,0,0,ACTION: verify_fact
+99,baseline,1,0,ACTION: verify_fact
+100,treatment,1,1,ACTION: skip / VERIFY_SKIPPED
+101,control,1,1,ACTION: skip / VERIFY_SKIPPED
+102,baseline,1,0,ACTION: verify_fact
+103,control,2,0,ACTION: verify_fact
+104,treatment,0,0,ACTION: verify_fact
+105,control,1,0,ACTION: verify_fact
+106,baseline,2,0,ACTION: verify_fact
+107,control,1,1,ACTION: skip / VERIFY_SKIPPED
+108,treatment,3,1,ACTION: skip / VERIFY_SKIPPED
+109,baseline,1,0,ACTION: verify_fact
+110,baseline,3,0,ACTION: verify_fact
+111,treatment,0,1,ACTION: skip / VERIFY_SKIPPED
+112,baseline,2,0,ACTION: verify_fact
+113,control,2,0,ACTION: verify_fact
+114,control,1,0,ACTION: verify_fact
+115,baseline,2,0,ACTION: verify_fact
+116,treatment,1,1,ACTION: skip / VERIFY_SKIPPED
+117,baseline,0,0,ACTION: verify_fact
+118,baseline,0,0,ACTION: verify_fact
+119,control,2,0,ACTION: verify_fact
+120,treatment,1,0,ACTION: verify_fact
+121,control,1,1,ACTION: skip / VERIFY_SKIPPED
+122,baseline,2,0,ACTION: verify_fact
+123,baseline,1,0,ACTION: verify_fact
+124,control,2,1,ACTION: skip / VERIFY_SKIPPED
+125,baseline,1,0,ACTION: verify_fact
+126,control,0,0,ACTION: verify_fact
+127,treatment,0,1,ACTION: skip / VERIFY_SKIPPED
+128,baseline,1,0,ACTION: verify_fact
+129,baseline,1,0,ACTION: verify_fact
+130,control,0,1,ACTION: skip / VERIFY_SKIPPED
+131,control,3,1,ACTION: skip / VERIFY_SKIPPED
+132,baseline,0,0,ACTION: verify_fact
+133,control,0,0,ACTION: verify_fact
+134,baseline,3,0,ACTION: verify_fact
+135,control,1,0,ACTION: verify_fact
+136,baseline,3,0,ACTION: verify_fact
+137,control,3,0,ACTION: verify_fact
+138,control,0,0,ACTION: verify_fact
+139,control,3,0,ACTION: verify_fact
+140,baseline,0,0,ACTION: verify_fact
+141,control,1,1,ACTION: skip / VERIFY_SKIPPED
+142,treatment,1,0,ACTION: verify_fact
+143,treatment,0,1,ACTION: skip / VERIFY_SKIPPED
+144,control,2,0,ACTION: verify_fact
+145,treatment,0,0,ACTION: verify_fact
+146,baseline,3,0,ACTION: verify_fact
+147,treatment,0,1,ACTION: skip / VERIFY_SKIPPED
+148,control,3,1,ACTION: skip / VERIFY_SKIPPED
+149,treatment,0,1,ACTION: skip / VERIFY_SKIPPED
+150,baseline,0,0,ACTION: verify_fact
+151,baseline,1,0,ACTION: verify_fact
+152,control,3,0,ACTION: verify_fact
+153,treatment,2,1,ACTION: skip / VERIFY_SKIPPED
+154,control,2,0,ACTION: verify_fact
+155,baseline,0,0,ACTION: verify_fact
+156,control,3,0,ACTION: verify_fact
+157,treatment,3,0,ACTION: verify_fact
+158,baseline,2,1,ACTION: skip / VERIFY_SKIPPED
+159,treatment,3,1,ACTION: skip / VERIFY_SKIPPED
+160,treatment,1,1,ACTION: skip / VERIFY_SKIPPED
+161,treatment,2,0,ACTION: verify_fact
+162,treatment,1,1,ACTION: skip / VERIFY_SKIPPED
+163,baseline,3,0,ACTION: verify_fact
+164,baseline,3,0,ACTION: verify_fact
+165,baseline,3,0,ACTION: verify_fact
+166,baseline,3,0,ACTION: verify_fact
+167,baseline,0,0,ACTION: verify_fact
+168,control,0,0,ACTION: verify_fact
+169,treatment,3,1,ACTION: skip / VERIFY_SKIPPED
+170,baseline,2,1,ACTION: skip / VERIFY_SKIPPED
+171,treatment,3,1,ACTION: skip / VERIFY_SKIPPED
+172,baseline,2,0,ACTION: verify_fact
+173,baseline,3,0,ACTION: verify_fact
+174,baseline,1,1,ACTION: skip / VERIFY_SKIPPED
+175,control,2,0,ACTION: verify_fact
+176,control,2,0,ACTION: verify_fact
+177,baseline,2,0,ACTION: verify_fact
+178,baseline,0,1,ACTION: skip / VERIFY_SKIPPED
+179,treatment,3,1,ACTION: skip / VERIFY_SKIPPED
