@@ -4,12 +4,13 @@
 
 | | |
 |---|---|
-| **Author** | Samer *(edit to your full preferred name / handle)* |
-| **Contact** | *(your email or profile — optional)* |
+| **Author** | Samer Ezaldin |
+| **Contact** | https://github.com/samer006-ai |
 | **Version** | 1.0 |
 | **Date** | 2026-06-01 |
 | **Status** | Public research note — responsible-disclosure friendly |
 | **Artifacts** | `temporal_anchoring_experiment.py` (benign measurement harness) |
+| **Repository** | https://github.com/samer006-ai/temporal-anchoring-measurement |
 
 > **One-line claim of priority.** This note describes, dates, and timestamps an
 > observation and a measurement method for a *temporal-anchoring* variant of
@@ -269,7 +270,7 @@ file's hash. Together they make the date of authorship hard to dispute.
 
 ## Appendix A — How to cite
 
-> Samer (2026). *Temporal Anchoring as an Amplifier of Indirect Prompt-Injection
+> Samer Ezaldin (2026). *Temporal Anchoring as an Amplifier of Indirect Prompt-Injection
 > Compliance: A benign, reproducible measurement of tool-call suppression in LLMs.*
 > v1.0, 2026-06-01.
 
