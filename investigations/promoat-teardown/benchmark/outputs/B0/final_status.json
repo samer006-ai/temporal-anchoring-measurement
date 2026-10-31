@@ -1,0 +1,29 @@
+{
+ "workflow_id": "partner_h3t_384448654930f1e5699f430738e01b94",
+ "status": {
+  "workflow_id": "partner_h3t_384448654930f1e5699f430738e01b94",
+  "status": "completed",
+  "error_message": null,
+  "credits_estimated": 9,
+  "credits_actual": 9,
+  "credits_consumed": 9,
+  "image_url": null,
+  "video_url": "https://pub-69e7ff4e5e7741d78df6928bffdd75ee.r2.dev/partner/25c74513-1356-4fae-b423-b80ce3b09644/videos/2026-10-31/partner_h3t_384448654930f1e5699f430738e01b94/video.mp4",
+  "result": {
+   "video_url": "https://pub-69e7ff4e5e7741d78df6928bffdd75ee.r2.dev/partner/25c74513-1356-4fae-b423-b80ce3b09644/videos/2026-10-31/partner_h3t_384448654930f1e5699f430738e01b94/video.mp4",
+   "asset_id": "3b7bccc1-7404-4a28-9144-4e9bce0c5e43",
+   "poster_url": "https://pub-69e7ff4e5e7741d78df6928bffdd75ee.r2.dev/partner/25c74513-1356-4fae-b423-b80ce3b09644/posters/2026-10-31/partner_h3t_384448654930f1e5699f430738e01b94/poster.jpg",
+   "editable": true,
+   "scenes_url": "/api/partner/v1/videos/partner_h3t_384448654930f1e5699f430738e01b94/scenes"
+  },
+  "job_type": "talking_head_video",
+  "phase": "completed",
+  "progress": 100,
+  "poster_url": "https://pub-69e7ff4e5e7741d78df6928bffdd75ee.r2.dev/partner/25c74513-1356-4fae-b423-b80ce3b09644/posters/2026-10-31/partner_h3t_384448654930f1e5699f430738e01b94/poster.jpg",
+  "source_workflow_id": null,
+  "error_code": null,
+  "queued_at": "2026-10-31T17:38:56.477+00:00",
+  "completed_at": "2026-10-31T17:40:05.455+00:00"
+ },
+ "balance_after": 2
+}

@@ -1,0 +1,8 @@
+{"t_s": 6.6, "status": "queued", "phase": "queued", "progress": 0}
+{"t_s": 17.7, "status": "running", "phase": "generating", "progress": 15}
+{"t_s": 28.5, "status": "running", "phase": "generating", "progress": 25}
+{"t_s": 39.1, "status": "running", "phase": "generating", "progress": 35}
+{"t_s": 49.7, "status": "running", "phase": "generating", "progress": 35}
+{"t_s": 59.6, "status": "running", "phase": "generating", "progress": 65}
+{"t_s": 70.1, "status": "running", "phase": "finalizing", "progress": 95}
+{"t_s": 80.2, "status": "completed", "phase": "completed", "progress": 100}

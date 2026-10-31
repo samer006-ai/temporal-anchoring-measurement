@@ -1,0 +1,19 @@
+HTTP/1.1 200 Connection Established
+
+HTTP/2 404 
+accept-ranges: bytes
+access-control-allow-origin: *
+age: 152540
+cache-control: public, max-age=0, must-revalidate
+content-disposition: inline; filename="404"
+content-type: text/html; charset=utf-8
+date: Sat, 31 Oct 2026 16:56:24 GMT
+etag: "86b4790705c203e97ee6421bc36cdccc"
+last-modified: Thu, 29 Oct 2026 22:34:03 GMT
+server: Vercel
+strict-transport-security: max-age=63072000
+x-matched-path: /404
+x-vercel-cache: HIT
+x-vercel-id: iad1::z4nw9-1793465784225-530a2b941950
+content-length: 11444
+

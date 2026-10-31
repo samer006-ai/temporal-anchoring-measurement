@@ -1,0 +1,17 @@
+# Kept private (not in the public repository): third-party page captures (Promoat docs, site, JS bundles,
+# store listings, registries), rendered page texts, and screenshots that show the research account.
+# They are listed with SHA-256 hashes in evidence/WITHHELD_MANIFEST.csv and archived in the private report page.
+evidence/web/*.html
+evidence/web/www_root.txt
+evidence/web/platform_root.txt
+evidence/web/docs_index.txt
+evidence/web/docs_pricing.txt
+evidence/web/js_platform/
+evidence/web/js_www/
+evidence/web/media/
+evidence/docs/
+evidence/osint/*
+!evidence/osint/OSINT_FINDINGS.md
+evidence/screenshots/*.png
+evidence/screenshots/*.rendered.txt
+evidence/dashboard/*.png

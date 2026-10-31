@@ -1,0 +1,21 @@
+HTTP/1.1 200 Connection Established
+
+HTTP/2 200 
+accept-ranges: bytes
+access-control-allow-origin: *
+age: 137123
+cache-control: public, max-age=0, must-revalidate
+content-disposition: inline; filename="sitemap.xml"
+content-type: application/xml
+date: Sat, 31 Oct 2026 16:56:23 GMT
+etag: "b955b9943231b4612433a5b65b53e33b"
+last-modified: Fri, 30 Oct 2026 02:50:59 GMT
+referrer-policy: strict-origin-when-cross-origin
+server: Vercel
+strict-transport-security: max-age=63072000
+x-content-type-options: nosniff
+x-matched-path: /sitemap.xml
+x-vercel-cache: HIT
+x-vercel-id: iad1::x2bwc-1793465783644-83fa67f4f521
+content-length: 2513
+

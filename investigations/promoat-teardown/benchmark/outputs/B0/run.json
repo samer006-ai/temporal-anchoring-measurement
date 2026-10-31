@@ -1,0 +1,30 @@
+{
+ "run_id": "B0",
+ "endpoint": "/videos",
+ "request": {
+  "mode": "talking_head",
+  "character_id": "8cf7c5cb-e5a6-45ea-bece-6cb1dafe65bd",
+  "audio_url": "https://raw.githubusercontent.com/samer006-ai/temporal-anchoring-measurement/faf0619/bench-inputs/a1_shami_intro_3s.mp3",
+  "first_frame_asset_id": "e80df0ed-96ee-4bd1-b08a-acb3ef2e663d",
+  "language": "ar",
+  "resolution": "768P"
+ },
+ "first_frame_request": {
+  "character_id": "8cf7c5cb-e5a6-45ea-bece-6cb1dafe65bd",
+  "kind": "talking_head",
+  "scene_description": "standing in front of a traditional Damascus bakery counter with fresh manakish, warm morning light, looking at the camera",
+  "language": "ar"
+ },
+ "first_frame_credits": 4,
+ "first_frame_latency_s": 22.1,
+ "estimate_credits": 9,
+ "submitted_utc": "2026-10-31T17:38:57+00:00",
+ "queued_at": "2026-10-31T17:38:56.477+00:00",
+ "completed_at": "2026-10-31T17:40:05.455+00:00",
+ "queue_wait_s_upper_bound": 17.7,
+ "submit_to_terminal_s_polled": 80.2,
+ "credits_consumed": 9,
+ "balance_before_video": 11,
+ "balance_after": 2,
+ "note": "run_job.py crashed at download (urllib 403 from R2 bot filter); outputs fetched with curl right after; record rebuilt from calls.jsonl + timeline.jsonl"
+}

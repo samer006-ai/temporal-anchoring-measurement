@@ -1,0 +1,5 @@
+POST https://platform.promoat.ai/api/partner/onboarding/provision (same call the official onboarding UI makes after sign-up),
+sent from the signed-in research session (scripts/provision.js).
+Response 200: {"apiKey":"pmat_<REDACTED>","alreadyKeyed":false,"credits":25}
+Key stored only in the session-private secrets file (outside the repository); never printed.
+After this call GET /usage/summary -> credits_balance 25.

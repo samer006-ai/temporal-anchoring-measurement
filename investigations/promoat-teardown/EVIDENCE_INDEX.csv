@@ -1,0 +1,66 @@
+evidence_id,claim_supported,source_or_path,captured_utc,evidence_type
+W-01,promoat.ai is Next.js on Vercel with Microsoft Clarity; it links Play package com.hexaflow_ai.expoai and iOS id6754813873,evidence/web/www_root.html; evidence/web/www_root.headers.txt; evidence/screenshots/www_promoat_ai_.hosts.json,2026-10-31T16:56Z,OBSERVED
+W-02,"platform.promoat.ai is Next.js on Vercel using Supabase Auth (@supabase/ssr 0.5.2) and Next API routes /api/partner/dashboard/*, /api/partner/onboarding/provision",evidence/web/platform_root.headers.txt; evidence/web/js_platform/,2026-10-31T16:58Z,OBSERVED
+W-03,No JavaScript source maps are published on www or platform,evidence/web/js_platform/; evidence/web/js_www/ (no sourceMappingURL),2026-10-31T16:59Z,OBSERVED
+W-04,Partner sign-up creates a live session immediately with no e-mail ownership check; browser calls Supabase signup + rpc partner_bootstrap_workspace + ensure-stripe-customer,evidence/dashboard/signup_network_2026-10-31T1721Z.txt; evidence/dashboard/signup_result.png,2026-10-31T17:21Z,OBSERVED
+W-05,25 trial credits + API key are issued by POST /api/partner/onboarding/provision (onboarding UI call); /sign-up page alone left 0 credits,evidence/dashboard/provision_2026-10-31T1723Z.txt; evidence/dashboard/dash_partner.txt,2026-10-31T17:23Z,OBSERVED
+W-06,"Stripe Checkout (live mode) for Promoat Weekly $9.99/week, 559 credits; merchant shown as UAB Appasap",evidence/dashboard/stripe_checkout_weekly.txt; evidence/dashboard/stripe_checkout_weekly.png,2026-10-31T17:25Z,OBSERVED
+W-07,"No Terms of Service/EULA/refund page on promoat.ai or platform; privacy policy (2026-02-16) silent on face/voice/biometrics, controller and retention",evidence/web/policy_probe_2026-10-31T1700Z.txt; evidence/screenshots/www_promoat_ai_privacy_policy.rendered.txt,2026-10-31T17:00Z,OBSERVED
+W-08,Plan picker shows a 'Limited offer ends Oct 31 · hh:mm:ss' countdown,evidence/dashboard/dash_partner.txt; evidence/dashboard/dash_partner_plans.txt,2026-10-31T17:22Z,OBSERVED
+W-09,Docs: no webhooks (poll only); 'Try it' boxes call the live API from the browser with a locally saved key; OpenAPI + SKILL.md published; Clarity on docs,evidence/docs/jobs-and-polling.txt; evidence/docs/docs_index.txt (web); evidence/docs/openapi.yaml; evidence/docs/SKILL.md,2026-10-31T16:57Z,OFFICIAL+OBSERVED
+W-10,"Plans: Weekly $9.99/559, Monthly $29.99/2219, Monthly 3.6x $99.99/7999; packs $12.99/779, $24.99/1499 (subscribers only); credits never expire",evidence/docs/credits-and-pricing.txt; evidence/dashboard/dash_partner_plans.txt,2026-10-31T16:57Z,OFFICIAL+OBSERVED
+W-11,"Marketing sample videos on promoat.ai/media are FFmpeg-7.x re-encodes (Lavf62.3.100), 432x756 to 1280x720",evidence/web/media_probe.txt; evidence/web/media/,2026-10-31T17:35Z,OBSERVED
+API-01,Keys pmat_<id>_<secret>; dashboard can reveal the current key again; rotation not self-serve (support only),evidence/docs/authentication.txt,2026-10-31T16:57Z,OFFICIAL
+API-02,"Billing contract: price by length; free estimate = reserve; quote is ceiling; settle min(actual,reserved); refund on failure; 75-min stale timeout refund; expected_credits lock; idempotency keys",evidence/docs/credits-and-pricing.txt; evidence/docs/errors-and-limits.txt,2026-10-31T16:57Z,OFFICIAL
+API-03,"Invalid inputs fail without charge: 409 QUOTE_MISMATCH (checked before balance), 422 INVALID_URL, 404 unknown voice, 400 INVALID_RESOLUTION; balance delta 0","evidence/api/calls.jsonl (idempotency keys b8a-*, b8b-*, b8c-*)",2026-10-31T17:28Z,OBSERVED
+API-04,"All generated assets are served from a public Cloudflare R2 dev bucket (pub-*.r2.dev) with unsigned, unguessable paths containing workspace and job ids",evidence/api/calls.jsonl; benchmark/outputs/B0/video.mp4.headers.txt; evidence/docs/assets.txt,2026-10-31T17:26Z,OBSERVED+OFFICIAL
+API-05,"Account limits: 5 active jobs, 3 cloned + 10 library voices, 4000-char script, 59.5 s voiced audio, 1 open edit per video",evidence/docs/errors-and-limits.txt,2026-10-31T16:57Z,OFFICIAL
+API-06,Price history: 1.1.0 (table 2026-09-30) 15 s talking head = 125 credits; 1.2.0 (2026-10-11) = 30 credits,evidence/docs/changelog.txt,2026-10-31T16:57Z,OFFICIAL
+API-07,Docs expose an operator rollback flag PARTNER_LEGACY_MODELS_ENABLED for previous engines,evidence/docs/changelog.txt,2026-10-31T16:57Z,OFFICIAL
+API-08,"Character creation (description mode): free, 22 s, returns a 4-view character sheet 2400x1792 plus a long locked text description",evidence/api/calls.jsonl; benchmark/outputs/c1_sheet_1.jpg,2026-10-31T17:26Z,OBSERVED
+API-09,Job lifecycle observed: queued -> generating (15..65%) -> finalizing (95%) -> completed; no webhooks; poll,benchmark/outputs/B0/timeline.jsonl; evidence/docs/jobs-and-polling.txt,2026-10-31T17:40Z,OBSERVED
+API-10,Estimates plan scene clips at 7-8 s (render_seconds) and charge by output second,"evidence/api/calls.jsonl (videos/estimate for B5, B6)",2026-10-31T17:27Z,OBSERVED
+API-11,"POST /videos/scene-plan answers in ~1 s with a verbatim sentence split and per-line seconds (deterministic splitter, not generative); requires video_type although the guide omits it",evidence/api/calls.jsonl (scene-plan),2026-10-31T17:46Z,OBSERVED+INFERENCE
+API-12,"TTS (studio voice, Shami text, 171 chars): 9.6 s latency, 10 credits, 13.6 s MP3",benchmark/outputs/tts_s2_daniel.response.json; benchmark/outputs/tts_s2_daniel.mp3,2026-10-31T17:29Z,OBSERVED
+FP-01,"Image outputs match Google Gemini image models' official 2K sizes (4:3=2400x1792, 9:16=1536x2752) - Nano Banana 2.1 / 3.1 Flash Image / 3.1 Pro Image",evidence/fingerprints/gemini_image_size_tables.txt; benchmark/outputs/c1_sheet_1.jpg; benchmark/outputs/B0/first_frame.jpg,2026-10-31T17:52Z,INFERENCE (medium-high)
+FP-02,TTS/cloning is ElevenLabs: 8 studio voices = ElevenLabs default names; voice_settings names/ranges; MP3 44.1kHz/128k mono,evidence/docs/voices.txt; benchmark/outputs/tts_s2_daniel.mp3,2026-10-31T17:30Z,INFERENCE (high)
+FP-04,"Video model not identified: 720x1264 @24 fps for '768P', lip-sync windows 5-14.5 s, scene clips 7-8 s, job prefixes partner_h3t_/h3v_/se_/fs_",benchmark/outputs/B0/video.av.json; evidence/docs/talking-head-videos.txt; evidence/docs/video-edits.txt,2026-10-31T17:41Z,UNKNOWN
+FP-05,Final MP4 muxed by FFmpeg 4.4 (Lavf58.76.100) with x264 core 163 crf=18 threads=39; TTS re-muxed by FFmpeg 8.x (Lavf63),benchmark/outputs/B0/video.mp4; benchmark/outputs/tts_s2_daniel.mp3,2026-10-31T17:41Z,OBSERVED
+AND-01,Android app not installed/tested: no KVM in the container; official APK requires Google Play on a signed-in device; mirrors not used,evidence/android_env_check.txt,2026-10-31T16:58Z,OBSERVED
+BM-B0,"5 s talking head (own audio + own first frame): 9 credits quoted=charged, 69 s server time, 720x1264 24fps, identity proxy 0.63 vs sheet",benchmark/outputs/B0/,2026-10-31T17:40Z,OBSERVED
+BM-B8,Failure/invalid-input tests: no credits charged,evidence/api/calls.jsonl,2026-10-31T17:28Z,OBSERVED
+OS-02,Privacy policy names no controller; contact is a Gmail address; no ToS,evidence/osint/OSINT_FINDINGS.md (+ raw captures in evidence/osint/),2026-10-31,see OSINT file
+OS-03,"App Store seller APPASAP, UAB; developer ProMoat.ai",evidence/osint/OSINT_FINDINGS.md (+ raw captures in evidence/osint/),2026-10-31,see OSINT file
+OS-04,EU App Store: seller has not declared trader status,evidence/osint/OSINT_FINDINGS.md (+ raw captures in evidence/osint/),2026-10-31,see OSINT file
+OS-05,"Play developer HexaFlow AI (individual account, Lithuania)",evidence/osint/OSINT_FINDINGS.md (+ raw captures in evidence/osint/),2026-10-31,see OSINT file
+OS-06,hexaflow.ai lists UAB Appasap office and team,evidence/osint/OSINT_FINDINGS.md (+ raw captures in evidence/osint/),2026-10-31,see OSINT file
+OS-07,"Aggregator: UAB Appasap code 307090149, reg. 2025-02-07, Kaunas, 1 employee (not checked against official register)",evidence/osint/OSINT_FINDINGS.md (+ raw captures in evidence/osint/),2026-10-31,see OSINT file
+OS-08,Inferred structure: UAB Appasap (entity) / HexaFlow AI (trade name) / ProMoat (brand),evidence/osint/OSINT_FINDINGS.md (+ raw captures in evidence/osint/),2026-10-31,see OSINT file
+OS-09,Look-alike companies ruled out,evidence/osint/OSINT_FINDINGS.md (+ raw captures in evidence/osint/),2026-10-31,see OSINT file
+OS-13,Blog mentions unnamed co-founders,evidence/osint/OSINT_FINDINGS.md (+ raw captures in evidence/osint/),2026-10-31,see OSINT file
+OS-18,Apps launched 2025-11-26,evidence/osint/OSINT_FINDINGS.md (+ raw captures in evidence/osint/),2026-10-31,see OSINT file
+OS-19,"iOS version history incl. name change, 2.0, price cut, removal of social posting",evidence/osint/OSINT_FINDINGS.md (+ raw captures in evidence/osint/),2026-10-31,see OSINT file
+OS-20,Pivot from content-marketing/scheduling app to AI-clone video,evidence/osint/OSINT_FINDINGS.md (+ raw captures in evidence/osint/),2026-10-31,see OSINT file
+OS-21,Partner API timeline; OpenAPI 1.2.1 vs docs 1.3,evidence/osint/OSINT_FINDINGS.md (+ raw captures in evidence/osint/),2026-10-31,see OSINT file
+OS-22,15 blog posts published 2026-05-12 (GEO series),evidence/osint/OSINT_FINDINGS.md (+ raw captures in evidence/osint/),2026-10-31,see OSINT file
+OS-23,No funding found,evidence/osint/OSINT_FINDINGS.md (+ raw captures in evidence/osint/),2026-10-31,see OSINT file
+OS-24,"Company-named suppliers (May 2026): Seedream, Kling, FAL lip-sync, Revid/Submagic",evidence/osint/OSINT_FINDINGS.md (+ raw captures in evidence/osint/),2026-10-31,see OSINT file
+OS-25,Unverified performance claims (94% viseme accuracy etc.),evidence/osint/OSINT_FINDINGS.md (+ raw captures in evidence/osint/),2026-10-31,see OSINT file
+OS-26,"Audience: founders, creators, small business, MENA",evidence/osint/OSINT_FINDINGS.md (+ raw captures in evidence/osint/),2026-10-31,see OSINT file
+OS-27,iOS in-app products $0.99-$499.99,evidence/osint/OSINT_FINDINGS.md (+ raw captures in evidence/osint/),2026-10-31,see OSINT file
+OS-28,Play in-app products $1.49-$599.99,evidence/osint/OSINT_FINDINGS.md (+ raw captures in evidence/osint/),2026-10-31,see OSINT file
+OS-32,Official onboarding docs: paywall at step 11 of 12,evidence/osint/OSINT_FINDINGS.md (+ raw captures in evidence/osint/),2026-10-31,see OSINT file
+OS-33,No money-refund policy; cancellation runs to period end,evidence/osint/OSINT_FINDINGS.md (+ raw captures in evidence/osint/),2026-10-31,see OSINT file
+OS-34,Policy vs store disclosures and age ratings gaps,evidence/osint/OSINT_FINDINGS.md (+ raw captures in evidence/osint/),2026-10-31,see OSINT file
+OS-35,SEO/GEO comparison pages as main owned channel,evidence/osint/OSINT_FINDINGS.md (+ raw captures in evidence/osint/),2026-10-31,see OSINT file
+OS-36,Meta SDK ad attribution,evidence/osint/OSINT_FINDINGS.md (+ raw captures in evidence/osint/),2026-10-31,see OSINT file
+OS-38,AI-agent channel (SKILL.md),evidence/osint/OSINT_FINDINGS.md (+ raw captures in evidence/osint/),2026-10-31,see OSINT file
+OS-40,No official social accounts found,evidence/osint/OSINT_FINDINGS.md (+ raw captures in evidence/osint/),2026-10-31,see OSINT file
+OS-41,Play 4.70 / 505 ratings / 10K+ downloads; not a proxy for users,evidence/osint/OSINT_FINDINGS.md (+ raw captures in evidence/osint/),2026-10-31,see OSINT file
+OS-42,Pattern: paywall at end of onboarding (11 Play + 1 App Store reviews),evidence/osint/OSINT_FINDINGS.md (+ raw captures in evidence/osint/),2026-10-31,see OSINT file
+OS-43,Pattern: 'scam / took money' complaints (>=5 reviews),evidence/osint/OSINT_FINDINGS.md (+ raw captures in evidence/osint/),2026-10-31,see OSINT file
+OS-44,Pattern: too expensive (4 reviews),evidence/osint/OSINT_FINDINGS.md (+ raw captures in evidence/osint/),2026-10-31,see OSINT file
+OS-46,Templated founder replies 2026-10-28,evidence/osint/OSINT_FINDINGS.md (+ raw captures in evidence/osint/),2026-10-31,see OSINT file
+OS-48,"DNS: Cloudflare, Vercel, Zoho mail, no DMARC",evidence/osint/OSINT_FINDINGS.md (+ raw captures in evidence/osint/),2026-10-31,see OSINT file
+OS-49,Subdomains from CT logs,evidence/osint/OSINT_FINDINGS.md (+ raw captures in evidence/osint/),2026-10-31,see OSINT file
+OS-52,Mobile app technical facts from listings,evidence/osint/OSINT_FINDINGS.md (+ raw captures in evidence/osint/),2026-10-31,see OSINT file

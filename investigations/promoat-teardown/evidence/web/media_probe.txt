@@ -1,0 +1,6 @@
+film-hania.mp4 stream|codec_name=h264|width=1280|height=720|avg_frame_rate=2709/113 stream|codec_name=aac|avg_frame_rate=0/0 format|duration=75.385011|tag:encoder=Lavf62.3.100 
+hero-hania.mp4 stream|codec_name=h264|width=540|height=960|avg_frame_rate=30/1 format|duration=6.233008|tag:encoder=Lavf62.3.100 
+hero-sled.mp4 stream|codec_name=h264|width=432|height=756|avg_frame_rate=30/1 format|duration=7.000000|tag:encoder=Lavf62.3.100 
+sd-dog-a.mp4 stream|codec_name=h264|width=432|height=756|avg_frame_rate=30/1 format|duration=6.066667|tag:encoder=Lavf62.3.100 
+step-clone-older.mp4 stream|codec_name=h264|width=540|height=944|avg_frame_rate=30/1 format|duration=2.433333|tag:encoder=Lavf62.3.100 
+walkthrough.mp4 stream|codec_name=h264|width=720|height=1280|avg_frame_rate=30/1 stream|codec_name=aac|avg_frame_rate=0/0 format|duration=46.733333|tag:encoder=Lavf62.3.100 

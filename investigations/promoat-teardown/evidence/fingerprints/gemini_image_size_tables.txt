@@ -1,0 +1,7 @@
+Source: https://ai.google.dev/gemini-api/docs/image-generation (fetched 2026-10-31T17:5xZ)
+Nano Banana 2.1: 4:3 -> 1200x896 1120 2400x1792 1680 4800x3584 2520 | 9:16 -> 768x1376 1120 1536x2752 1680 3072x5504 2520
+3.1 Flash Image: 4:3 -> 600x448 747 1200x896 1120 2400x1792 1680 4800x3584 2520 | 9:16 -> 384x688 747 768x1376 1120 1536x2752 1680 3072x5504 2520
+3.1 Pro Image: 4:3 -> 1200x896 1120 2400x1792 1120 4800x3584 2000 | 9:16 -> 768x1376 1120 1536x2752 1120 3072x5504 2000
+Gemini 2.5 Flash Image: 4:3 -> 1184x864 1290 | 9:16 -> 768x1344 1290
+Columns: 1K res, 1K tokens, 2K res, 2K tokens, 4K res, 4K tokens (where the model supports them)
+Observed Promoat outputs: character sheet 2400x1792 (4:3), first frame 1536x2752 (9:16).

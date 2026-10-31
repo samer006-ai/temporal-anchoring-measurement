@@ -1,0 +1,14 @@
+HTTP/1.1 200 Connection Established
+
+HTTP/1.1 200 OK
+Date: Sat, 31 Oct 2026 17:26:18 GMT
+Content-Type: image/jpeg
+Content-Length: 302123
+Connection: keep-alive
+Accept-Ranges: bytes
+Cache-Control: public, max-age=31536000, immutable
+ETag: "65bc28681c535da78498b7b1a72f81cb"
+Last-Modified: Sat, 31 Oct 2026 17:26:03 GMT
+Server: cloudflare
+CF-RAY: a5345d2a4c19393e-IAD
+

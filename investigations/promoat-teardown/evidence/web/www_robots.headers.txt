@@ -1,0 +1,21 @@
+HTTP/1.1 200 Connection Established
+
+HTTP/2 200 
+accept-ranges: bytes
+access-control-allow-origin: *
+age: 155056
+cache-control: public, max-age=0, must-revalidate
+content-disposition: inline; filename="robots.txt"
+content-type: text/plain; charset=utf-8
+date: Sat, 31 Oct 2026 16:56:23 GMT
+etag: "0d2c8b0792e09d065caecfa296f36216"
+last-modified: Thu, 29 Oct 2026 21:52:07 GMT
+referrer-policy: strict-origin-when-cross-origin
+server: Vercel
+strict-transport-security: max-age=63072000
+x-content-type-options: nosniff
+x-matched-path: /robots.txt
+x-vercel-cache: HIT
+x-vercel-id: iad1::7vrwh-1793465783409-cc08f4fcd07e
+content-length: 68
+

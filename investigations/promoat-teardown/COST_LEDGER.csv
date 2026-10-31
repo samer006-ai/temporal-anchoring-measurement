@@ -1,0 +1,13 @@
+utc,item,kind,credits_delta,credits_balance_after,cash_usd,credits_value_usd_at_weekly_rate,cumulative_cash_usd,budget_remaining_usd,evidence_or_note
+2026-10-31T17:21Z,Promoat partner account created (owner-approved e-mail),account,0,0,0.00,0.00,0.00,100.00,evidence/dashboard/signup_network_2026-10-31T1721Z.txt
+2026-10-31T17:23Z,Trial credits granted by onboarding provision,free_credit_grant,+25,25,0.00,0.45,0.00,100.00,evidence/dashboard/provision_2026-10-31T1723Z.txt
+2026-10-31T17:25Z,Stripe Checkout session created for Weekly plan $9.99 (NOT paid by us; link handed to owner),pending_payment,0,25,0.00,0.00,0.00,100.00,"evidence/dashboard/stripe_checkout_weekly.txt; reserve USD 9.99 + possible tax once paid"
+2026-10-31T17:26Z,POST /characters (description mode),spend,0,25,0.00,0.00,0.00,100.00,free per price list
+2026-10-31T17:26Z,POST /voices studio voice Daniel,spend,0,25,0.00,0.00,0.00,100.00,free per price list
+2026-10-31T17:28Z,B8 failure tests (quote mismatch / bad URL / unknown voice / bad resolution / private selfie URL),spend,0,25,0.00,0.00,0.00,100.00,balance before=after=25
+2026-10-31T17:29Z,POST /tts Shami S2 171 chars,spend,-10,15,0.00,0.18,0.00,100.00,benchmark/outputs/tts_s2_daniel.response.json
+2026-10-31T17:38Z,POST /images/first-frame for B0,spend,-4,11,0.00,0.07,0.00,100.00,benchmark/outputs/B0/first_frame.response.json
+2026-10-31T17:38Z,B0 video reserve (quote 9),reserve,-9,2,0.00,0.16,0.00,100.00,submit response credits_reserved=9
+2026-10-31T17:40Z,B0 video settled (consumed 9 = reserve; no refund due),settle,0,2,0.00,0.00,0.00,100.00,benchmark/outputs/B0/final_status.json
+2026-10-31T17:50Z,Local tools (faster-whisper large-v3; MediaPipe; OpenCV models from Hugging Face/Google),tooling,0,2,0.00,0.00,0.00,100.00,"no paid external service; session compute is not metered here and is NOT assumed to be zero-cost"
+2026-10-31T17:50Z,Cloud resources created for this work,infrastructure,0,2,0.00,0.00,0.00,100.00,none created (work runs inside the session container; nothing to stop)

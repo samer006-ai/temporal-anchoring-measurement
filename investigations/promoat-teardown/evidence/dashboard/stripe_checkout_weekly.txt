@@ -1,0 +1,24 @@
+HOST checkout.stripe.com
+CAPTURED 2026-10-31T17:24:54.666Z
+
+Back
+UAB Appasap
+Subscribe to Promoat Weekly
+$9.99
+per
+week
+559 credits a week for the Promoat Partner API. Credits never expire.
+Confirm it’s you
+Enter the code sent to <research-account-email> to use your saved information.
+Resend code
+Logging in as <research-account-email>
+Pay without Link
+
+Payment mode: Live mode. Test data not accepted.
+
+Powered by 
+Terms
+Privacy
+
+NET
+POST /api/partner/dashboard/subscription/checkout -> 200

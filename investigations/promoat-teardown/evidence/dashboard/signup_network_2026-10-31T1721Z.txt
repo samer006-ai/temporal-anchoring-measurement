@@ -1,0 +1,16 @@
+Captured 2026-10-31T17:21Z by scripts/signup.js (Playwright, headless Chromium). Bodies/tokens not recorded.
+Form fields: name, organization, email, password, confirm. No terms checkbox or terms link.
+Values used: name "Samer", organization "Independent research", e-mail = the owner-approved research address.
+Result page: /sign-up/success  "Account ready. You're signed in as <email>. Your workspace is set up."  (no e-mail confirmation step)
+Network (non-static):
+GET  platform.promoat.ai/sign-up -> 200
+POST wzaspnnbvnrojwrdltyw.supabase.co/auth/v1/signup -> 200
+POST wzaspnnbvnrojwrdltyw.supabase.co/rest/v1/rpc/partner_bootstrap_workspace -> 200
+POST platform.promoat.ai/api/partner/dashboard/ensure-stripe-customer -> 200
+GET  platform.promoat.ai/sign-up/success -> 200
+GET  wzaspnnbvnrojwrdltyw.supabase.co/auth/v1/user -> 200
+POST wzaspnnbvnrojwrdltyw.supabase.co/rest/v1/rpc/partner_bootstrap_workspace -> 200   (repeated on success page)
+POST platform.promoat.ai/api/partner/dashboard/ensure-stripe-customer -> 200          (repeated)
+Dashboard right after sign-up: CREDITS 0, "No key yet." (see dash_partner.txt)
+Client code (onboarding flow) after signUp: rpc partner_bootstrap_workspace -> POST /api/partner/dashboard/ensure-stripe-customer
+ -> POST /api/partner/onboarding/provision returning {apiKey, credits}. The /sign-up page did not call provision.

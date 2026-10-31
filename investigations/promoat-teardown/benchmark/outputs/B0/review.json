@@ -1,0 +1,9 @@
+{"case": "B0 (free-trial fallback)", "attempt": 1, "raw_or_tuned": "raw", "mode": "talking_head, own audio + own first frame", "language": "Shami (TTS studio voice)",
+ "input_summary": "3.6 s TTS clip of S2 opening line; first frame 'Damascus bakery counter' (4 cr); character C1 synthetic",
+ "loudness_note": "-16.7 LUFS integrated",
+ "watermark_visible": "no",
+ "visual_review": "Self-review of 12 frames (not blind): photoreal selfie-style framing, bakery with manakish trays as asked, same face throughout (sheet->video), natural hand gestures, mouth closes after speech ends (~3.6 s); expressions somewhat exaggerated (very wide mouth at 1.3 s); shirt colour drifts from sheet (teal) to green but is stable within the video; no text or watermark.",
+ "audio_review": "Not judged by ear (reviewer cannot listen). ASR (Whisper large-v3) recovers the line verbatim except fikun->fikum spelling.",
+ "acceptable": "visual criteria pass; audio criteria pending owner listening",
+ "notes": "5 s minimum billing for 3.6 s audio (last 1.4 s silent). Output 720x1264 for '768P'. Free-trial credits only.",
+ "extra_credits_same_case": 4}

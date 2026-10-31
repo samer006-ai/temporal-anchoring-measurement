@@ -1,0 +1,180 @@
+path,bytes,sha256,file_mtime_utc,source
+evidence/dashboard/dash_partner.png,110461,b9da638b1a251130ae3a813e767cd5938ff6951adcc2c4e1fdc4c47e410c6345,2026-10-31T17:22Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/dashboard/dash_partner_plans.png,62743,1e131ac308daa5fdf333ec6376ba211b1490b6b404592181085580978f40ef54,2026-10-31T17:24Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/dashboard/signup_result.png,33639,9574df3b4c3b2cd85bc82a14ce186b8826e2e378d0c7db03f10affad8874bfe7,2026-10-31T17:21Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/dashboard/stripe_checkout_weekly.png,48885,1aed802e78bf6a1ccc8177f261863e9d364872eea4ba2cd1dfe5ff4af5d7ad12,2026-10-31T17:24Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/docs/CAPTURE_TIME.txt,29,56e157695db4ec545f6244cd49d9e83947ad4425ec34e452e0d92fdb6fc052ff,2026-10-31T16:56Z,
+evidence/docs/SKILL.md,48752,7931dc4507bd34a2ab4228610d54a63d548d953cb188d0a52e9e7519484cd52e,2026-10-31T16:56Z,https://platform.promoat.ai/skill/SKILL.md
+evidence/docs/agent-skill.html,34089,71746a7efc8650083c354f773730414933e957af7831b0f8e67a185af85334ce,2026-10-31T16:56Z,https://platform.promoat.ai/docs/agent-skill
+evidence/docs/agent-skill.txt,4169,381c6d85eead70624bc2e7d4580aafa0a0031a48e8f68edec30733d951030139,2026-10-31T16:56Z,https://platform.promoat.ai/docs/agent-skill
+evidence/docs/assets.html,39783,7be5459695fd877ae90aef91462c04db07e5ad0f8707d11000d914de63d4bf0f,2026-10-31T16:56Z,https://platform.promoat.ai/docs/assets
+evidence/docs/assets.txt,3706,42c4e36de43e13987a81d2f60cbb0c66c771fef863504688f40fafa4e0304bff,2026-10-31T16:56Z,https://platform.promoat.ai/docs/assets
+evidence/docs/authentication.html,31502,58d46b3a033177375caa6a270c8c560123344d2657f0406b5c0d11cc90fd2c6d,2026-10-31T16:56Z,https://platform.promoat.ai/docs/authentication
+evidence/docs/authentication.txt,3276,2a1613606264a6f242fc0e17147c6912c4facf797437e7095e8c6133bfb32a64,2026-10-31T16:56Z,https://platform.promoat.ai/docs/authentication
+evidence/docs/changelog.html,67931,cc26122606d3024d4e4098eb4850b28e4854a22c995e0526e152f362c436dada,2026-10-31T16:56Z,https://platform.promoat.ai/docs/changelog
+evidence/docs/changelog.txt,8685,a85906349c1fbd93c6a5e189567a69c08cdeffbc2e22b9d750cc76775fb64406,2026-10-31T16:56Z,https://platform.promoat.ai/docs/changelog
+evidence/docs/characters.html,48739,d4e02245d1606b964cca25461ade5006087ae4e1eaed13340f84b5fa1c3ec7b9,2026-10-31T16:56Z,https://platform.promoat.ai/docs/characters
+evidence/docs/characters.txt,6077,271f895a06abe5a80fca124375b90ad8de6be682ca5635c2f6c201d7005b22a8,2026-10-31T16:56Z,https://platform.promoat.ai/docs/characters
+evidence/docs/credits-and-pricing.html,73769,9918a60136a7a3af8614c153af37d1a84bf4d3001a57e9a7ecef5b150b9916b3,2026-10-31T16:56Z,https://platform.promoat.ai/docs/credits-and-pricing
+evidence/docs/credits-and-pricing.txt,10001,2dcd719bc086bb2ba8eba3d65daea8faf59ea7a98d51f7549dc1f7501c59400f,2026-10-31T16:56Z,https://platform.promoat.ai/docs/credits-and-pricing
+evidence/docs/errors-and-limits.html,77183,b96a8b9037210c4f4207cff3696d2d334c32fae399319e1bc6e6af428abe027b,2026-10-31T16:56Z,https://platform.promoat.ai/docs/errors-and-limits
+evidence/docs/errors-and-limits.txt,9187,22c2aa369b8f5f2f3d94755d6ea0e2847c957d0a4f3c51a611685887b4b92e9b,2026-10-31T16:56Z,https://platform.promoat.ai/docs/errors-and-limits
+evidence/docs/first-frame-images.html,39621,fed5ec23726395a7c1aead375ba4aee9651f5155dd04c0dd5cb579c6afab5fc6,2026-10-31T16:56Z,https://platform.promoat.ai/docs/first-frame-images
+evidence/docs/first-frame-images.txt,4066,97c90d9135fbb4b72afb74b07b28fbdd2a7aa18c343f30e97dcd8b93fe700fdb,2026-10-31T16:56Z,https://platform.promoat.ai/docs/first-frame-images
+evidence/docs/jobs-and-polling.html,57914,2eaa0ab13b2933d0d9e5a1235092954236113c21f85a2587a2d1e37bc185ea7b,2026-10-31T16:56Z,https://platform.promoat.ai/docs/jobs-and-polling
+evidence/docs/jobs-and-polling.txt,6567,4ee515ae84aca148b53b7a0eb6ae84e34995ff24f4f6a1165d9e414ff18902ea,2026-10-31T16:56Z,https://platform.promoat.ai/docs/jobs-and-polling
+evidence/docs/openapi.yaml,74540,a3f09b29c5223c3e4b60b1a711e9dd54c5d5519340b75e2b459900a140bd6a1e,2026-10-31T16:56Z,https://platform.promoat.ai/openapi.yaml
+evidence/docs/playground.html,14423,c297b718e3fb0660d54fe18438e6e90950226bcfde0c33e20b919f9c638e5de0,2026-10-31T16:56Z,https://platform.promoat.ai/docs/playground
+evidence/docs/playground.txt,285,b3aa2bf39061ea7d04794d8644738497ed88d3bfa1affa2324fb2afe0b19301c,2026-10-31T16:56Z,https://platform.promoat.ai/docs/playground
+evidence/docs/scene-videos.html,73901,92b200359e400f73433bdb91904e43d83539c50551c73233340f623677359a9c,2026-10-31T16:56Z,https://platform.promoat.ai/docs/scene-videos
+evidence/docs/scene-videos.txt,9853,41462a38c593dbea2cfceb8a55eb4f75372e58e716fee175aa814fb158f8bcb9,2026-10-31T16:56Z,https://platform.promoat.ai/docs/scene-videos
+evidence/docs/talking-head-videos.html,68412,ed2555c4c0ac505ac6989afd69691acc5e72f8e24de00e99d49bac680a42ed36,2026-10-31T16:56Z,https://platform.promoat.ai/docs/talking-head-videos
+evidence/docs/talking-head-videos.txt,9786,3a039c18c90240275875c6745115df240764dbbda64a1c2cf8f3651cca47bdce,2026-10-31T16:56Z,https://platform.promoat.ai/docs/talking-head-videos
+evidence/docs/text-to-speech.html,39695,fe852f121ef08c3cc8578fceac6103292ecccf689f6589efc1426ecd9db14dfe,2026-10-31T16:56Z,https://platform.promoat.ai/docs/text-to-speech
+evidence/docs/text-to-speech.txt,3995,1d6c7534417022375f346328d570f3e6d5af29aed3d87cdd208cccb3b37e0856,2026-10-31T16:56Z,https://platform.promoat.ai/docs/text-to-speech
+evidence/docs/usage.html,35660,120a207d87abd2673146f54af673a86f5efa212a719f18852c53b7d069807bf4,2026-10-31T16:56Z,https://platform.promoat.ai/docs/usage
+evidence/docs/usage.txt,3306,33acd8115a427cd97c9e9b1cfe9cbfd9650a4fa26c9b15ff47386a0936bdce97,2026-10-31T16:56Z,https://platform.promoat.ai/docs/usage
+evidence/docs/video-edits.html,69420,19684319c9ed6d75d0e65d728911fb724e925df1d0213d2c7ddaf95a0a2040f9,2026-10-31T16:56Z,https://platform.promoat.ai/docs/video-edits
+evidence/docs/video-edits.txt,9367,0f43e68edf82b4c707af2de030fe0722622e278e54626572d478ab1369c573c0,2026-10-31T16:56Z,https://platform.promoat.ai/docs/video-edits
+evidence/docs/voices.html,53747,8c6e4b4783d70a8e2cf63f47b08a3b6d0bd55a60080ddd79bf36b93bbcabf1b1,2026-10-31T16:56Z,https://platform.promoat.ai/docs/voices
+evidence/docs/voices.txt,6986,4633edc46e8ff2d30bdf1932e83538dc1bf6fb6369ce34f67d27f19fdb746e06,2026-10-31T16:56Z,https://platform.promoat.ai/docs/voices
+evidence/docs/whats-new.html,60967,4b53a7ce42b99b3bbfb31f61d824f35da00bc24f18aa22a1664e3ed8f02e98c3,2026-10-31T16:56Z,https://platform.promoat.ai/docs/whats-new
+evidence/docs/whats-new.txt,7669,2ebd55cb1c67e97e143de4a2cf9aadc3bd8057b61300e66a0cfae347f6a37f9e,2026-10-31T16:56Z,https://platform.promoat.ai/docs/whats-new
+evidence/osint/appstore_ios_version_history_extracted_from_appstore_web_us.tsv,2001,a2f6d9c3fd4cf27112b97a87778af575987968de414ff2b95cafdfb40deb8356,2026-10-31T17:14Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/osint/appstore_itunes_lookup_artist6814774031_us.json,8301,d2bcdb0f6f89e1f8e7f5750212d8a89d1e1cba5d4d3416a3a319e2f15ab68e1e,2026-10-31T16:59Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/osint/appstore_itunes_lookup_id6754813873_ae.json,8108,93d38bd2dff58d84cd06cdb4e615f8df11c9d56b61b50a83c843e25a008563ae,2026-10-31T16:59Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/osint/appstore_itunes_lookup_id6754813873_eg.json,8108,b9f1db416cd729c662760ed2a7519a15b9ceba3d7fcfa0033bc9646df659e832,2026-10-31T16:59Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/osint/appstore_itunes_lookup_id6754813873_gb.json,8004,a948947f0abd18511c40fb474813c33d1e670e6143441101fa1fcd1288ac91c5,2026-10-31T16:59Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/osint/appstore_itunes_lookup_id6754813873_sa.json,8106,2f69b4800e868bc2dd23867c34916395a22008202029b804cb7c5afafaf22eb1,2026-10-31T16:59Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/osint/appstore_itunes_lookup_id6754813873_us.json,8108,ead2ff76ca202ec8cf2c2330a94f2a124a5b3ea12cde20358b8fd87f1f25bed4,2026-10-31T16:59Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/osint/appstore_rss_reviews_ae.json,2947,76d6593a41b58f194d4162acd22ca8f05d7d284fd208c9bee740a89f5dd82c2b,2026-10-31T17:00Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/osint/appstore_rss_reviews_eg.json,5241,b09b360d0857d53a2df0d676d80cb419e6c47ed6358d9b4fe3188fdb52352b90,2026-10-31T17:00Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/osint/appstore_rss_reviews_sa.json,2371,6ec14539b1b54a30fc8ce2f915e2125e83ad2d4b06f8589607214199072c411a,2026-10-31T17:00Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/osint/appstore_rss_reviews_us.json,2797,85e2e5488d4149382fd66010a30eccecf0e814bab0e59240f7da373901942282,2026-10-31T17:00Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/osint/appstore_web_id6754813873_de.html,569113,bdf95c846b5434a067182b49c282bbb7399a246ee1633975ea1c9664dfef61a7,2026-10-31T17:00Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/osint/appstore_web_id6754813873_lt.html,575273,7b072f23795aeb44a5026e9bdacb51da10e05a6c4c226e739a44bbc2edeb7716,2026-10-31T17:00Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/osint/appstore_web_id6754813873_us.html,603385,1cfe6fed8fd1cbb14bdf555fe65345e4da7cd531de36078ebd8b67208f66e15d,2026-10-31T17:00Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/osint/crtsh_hexaflow.ai.json,34279,2f8c5ed8922c38e47a308796f702ca652425223b95d40a6003c9fda95f833048,2026-10-31T17:12Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/osint/crtsh_promoat.ai.json,34292,b243bce52e37780fe17d3e6ff0fec13eccc6f19c2c97cc29f4c67851ce27cc7b,2026-10-31T17:06Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/osint/crtsh_techhive.dev.json,358102,25d89e698b61ddb3f615de0dcf0027491ad7fc3b825ea7fc3b1ceb52e64fd5e6,2026-10-31T17:06Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/osint/disambiguation_promoat.com_lantmannen.html,135905,b4d60145653f542e94e04dbb86035c4cc3b5fc6b1cd597805e2bc3abbaf6d9c5,2026-10-31T17:02Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/osint/dns_doh_promoat.ai_and_related.txt,3701,036c15d26b64e57de3f5c83582a6dd22ab7f7bb57d980ba2baef8841c355259f,2026-10-31T17:10Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/osint/googleplay_com.hexaflow_ai.expoai_en_us.html,1104836,021b41f57e5daf9a230bf8bbe6b0759ebcd669143cb0f15bb2da36509fd83ca3,2026-10-31T17:00Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/osint/googleplay_datasafety_com.hexaflow_ai.expoai.html,645623,f36508456caf5ec1ff569811bc3ef5bf7d976933f7b6557c26e79a212e650e2d,2026-10-31T17:00Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/osint/googleplay_developer_HexaFlow_AI.html,885380,bf8f9e5e7f430f1b4a1161d20bee577676664eefbd5e586e4c4585f9535fc3da,2026-10-31T17:01Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/osint/googleplay_scraper_app_and_reviews.json,17425,3d091521c5593d44cdd1c46e4759c0a02c0fc10c60b3f64d98bfd85b0579a920,2026-10-31T17:01Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/osint/official_docs.promoat.ai_connect-social-accounts.html,78606,ec70a04b333ccbc0fd64b2e1a02ad8d595ebd7486385ea243ded46e644851b96,2026-10-31T17:11Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/osint/official_docs.promoat.ai_home.html,44896,a722746192585505db7fce65dbf555a7591d6166b8f34fa40ac27cfe88b37aac,2026-10-31T17:10Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/osint/official_docs.promoat.ai_onboarding.html,77614,309b16ce9b947389627d5ecbd208288c0e0ca8c6ee3aeca17fc76452ea3702ca,2026-10-31T17:11Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/osint/official_forget-password.promoat.ai_home.html,6287,2cc2d809de71bf830398330d91ef10b49e21f67e61f836fd3804b3132fa4c20f,2026-10-31T17:10Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/osint/official_platform.promoat.ai_docs.html,45069,0752fe97510d6eb684c9feacba8844c364a98ecf6b87fc61fae6d8c95fd3325c,2026-10-31T16:58Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/osint/official_platform.promoat.ai_docs_agent-skill.html,34089,71746a7efc8650083c354f773730414933e957af7831b0f8e67a185af85334ce,2026-10-31T16:58Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/osint/official_platform.promoat.ai_docs_authentication.html,31502,58d46b3a033177375caa6a270c8c560123344d2657f0406b5c0d11cc90fd2c6d,2026-10-31T16:58Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/osint/official_platform.promoat.ai_docs_changelog.html,67931,cc26122606d3024d4e4098eb4850b28e4854a22c995e0526e152f362c436dada,2026-10-31T16:58Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/osint/official_platform.promoat.ai_docs_credits-and-pricing.html,73769,9918a60136a7a3af8614c153af37d1a84bf4d3001a57e9a7ecef5b150b9916b3,2026-10-31T16:58Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/osint/official_platform.promoat.ai_docs_errors-and-limits.html,77183,b96a8b9037210c4f4207cff3696d2d334c32fae399319e1bc6e6af428abe027b,2026-10-31T16:58Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/osint/official_platform.promoat.ai_docs_whats-new.html,60967,4b53a7ce42b99b3bbfb31f61d824f35da00bc24f18aa22a1664e3ed8f02e98c3,2026-10-31T16:58Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/osint/official_platform.promoat.ai_home.html,15121,c697d9fba997853b7e90a1ac06bcc84ed4256702d9faead7713cb3c48f6be014,2026-10-31T16:58Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/osint/official_platform.promoat.ai_openapi.yaml,74540,a3f09b29c5223c3e4b60b1a711e9dd54c5d5519340b75e2b459900a140bd6a1e,2026-10-31T16:58Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/osint/official_platform.promoat.ai_sign-up.html,11932,d6e7d7b891157884f100ef5fcda9630f39ca138defa4ad44708f546a7210c87c,2026-10-31T17:13Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/osint/official_platform.promoat.ai_skill_SKILL.md,48752,7931dc4507bd34a2ab4228610d54a63d548d953cb188d0a52e9e7519484cd52e,2026-10-31T16:58Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/osint/official_promoat.ai_ai-clone-burnout.html,82812,8b70f50607f7f42528554c74983d5c5fb951708e312e6017b3de0f9e1d469051,2026-10-31T16:58Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/osint/official_promoat.ai_blog.html,52163,cc6ed466e2a2715ec35eb322c4d91cbc52e6893feefb5818fa62eb2d07be7d69,2026-10-31T16:57Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/osint/official_promoat.ai_colossyan-alternative.html,54001,92f7492cce196fa6d3fe6d6c8088f0057a8a8b6188de487b5d426103f5dcba7c,2026-10-31T16:58Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/osint/official_promoat.ai_d-id-alternative.html,95335,1f628079bf78b9662ba59006cbcfcea94755e8b8b238c92f0b66a4c040e32c13,2026-10-31T16:58Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/osint/official_promoat.ai_heygen-alternative.html,50054,bdbe2ccf951f8d0e1c1994bc24be8bd9b416e8ed78dc119ba145e14eb27b85c4,2026-10-31T16:58Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/osint/official_promoat.ai_home.html,94390,685486de9fc8a8d569c9909bda0a422c5b18155154bf7525f91b7a3cce5256e5,2026-10-31T16:57Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/osint/official_promoat.ai_hook-engineering.html,81503,abe31c7650e3ee8947ffcb120cd8040d70b8c6615f614803cf999179a20b6c73,2026-10-31T16:58Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/osint/official_promoat.ai_native-arabic-lip-sync-for-founders.html,84133,38bce38339eaa6b67f8a6b6be11ecff8aabe3e2ed4f437d91780ed4bb6925ba3,2026-10-31T16:58Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/osint/official_promoat.ai_personalized-ai-video-at-scale.html,84117,983f61076d6dbeab10ddaf1160e66ed35195063e2902f360fc9a0bc90bef0736,2026-10-31T16:58Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/osint/official_promoat.ai_privacy-policy.html,54706,2c13a2de09e0432606c4145f6f561118f75bb59958624920e8b9b449362aeb1f,2026-10-31T16:57Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/osint/official_promoat.ai_promoat-vs-arcads-founder-cloned-marketing-vs-stock-actor-ugc-in-2026.html,106562,5ee5634f156d01e1dc7bd30734e857b6b38b563b76fc380315184ff7964da132,2026-10-31T16:58Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/osint/official_promoat.ai_promoat-vs-heygen-which-ai-video-tool-wins-for-founder-marketing-in-2026.html,102035,f7455198dc89eaaddeddd7f0394ce09d190e244e9cb665740607d4a20d27007a,2026-10-31T16:58Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/osint/official_promoat.ai_promoat-vs-synthesia-the-2026-founder-s-honest-comparison.html,102703,c968e1f37fcafedaeb462c9295badc397a358e15b98309bed9c1e28c1d230b55,2026-10-31T16:58Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/osint/official_promoat.ai_robots.txt,68,322580635bf0e3d29e5434c497bd58694f1fb32bd02217c87e26d4ddf20f8438,2026-10-31T16:57Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/osint/official_promoat.ai_sitemap.xml,2513,e68d0741bdc157071990966946ed0d94c171f9ac682346c13571d5163c8faacb,2026-10-31T16:57Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/osint/official_promoat.ai_synthesia-alternative-for-founders-in-2026.html,91930,0070814700acb2a4a0c586b3c49987ac943d0df4662ef8ae75d2f72592fc0a23,2026-10-31T16:58Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/osint/official_promoat.ai_synthesia-alternative.html,50812,16b7d8acc0e5aea7cc78630c81a9557a32bcd4e948e0a62a1f1c91ef4ae51d66,2026-10-31T16:58Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/osint/official_promoat.ai_the-2026-ai-labeling-playbook.html,81613,a429288da734f536967e5600c7b28e80c7c1725e222361dcd27ca705e3153189,2026-10-31T16:58Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/osint/official_promoat.ai_the-2026-playbook-for-selfie-trained-marketing-video.html,84093,609ab735a0b2b9ff060e78b46cb33e80551613d2ba4ca6a32e240b5d90e14550,2026-10-31T16:58Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/osint/official_promoat.ai_the-selfie-quality-bar.html,83396,ea57be1cc6e5b8a81553ed78550046cce7431fda7d2bb0b4db1afa7df594c960,2026-10-31T16:58Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/osint/official_promoat.ai_the-two-rail-architecture.html,82408,816347564b4742ea8bb2880a17637a6951e82faaab42ab14fedb59913858e420,2026-10-31T16:58Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/osint/official_promoat.ai_why-founder-voiceover-beats-ai-voice-cloning.html,83611,013f96d3918ddcccbd5b98e4148eec3835a509bdd1c4b1367c2b912c389449c1,2026-10-31T16:58Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/osint/official_promoat.ai_why-founders-choose-ai-clones-2026.html,84559,4462b3856868b7b9696ec7cd792e2f8e3d18a38d64b56ab640dab3d8ddd229c3,2026-10-31T16:58Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/osint/official_promoat.ai_why-western-ai-video-tools-fail-in-the-mena-market.html,82771,f48b605281a84f7a7ffde0c21f3f94036c0c1abaaeaa6235165ded937986e61a,2026-10-31T16:58Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/osint/rdap_appasap.ai.json,11406,2731851fd7ac1c79334a914037a451ee12a987d8edd53cb58e1439b50cc853b7,2026-10-31T17:04Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/osint/rdap_hexaflow.ai.json,11433,f9385a5c0dec8e33ec31997652fdc049759eb239411c49bfde3ea6e047d7e91d,2026-10-31T17:02Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/osint/rdap_hexaflowai.com.json,2545,9c790cadd3aff257ea4c7560f8f1b25a831914af0523a1b02f20c671dfe5fe4d,2026-10-31T17:02Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/osint/rdap_ip_38.242.147.23.json,7373,841a5746a3eb058e8b3e5b582dc85bc4b5838111a53bc5d876ad44eee8144c20,2026-10-31T17:06Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/osint/rdap_promoat.ai.json,11412,586d63674bf6dfe38ebd813ad5b126281e351c308b36cbf4fee623283b96b4e7,2026-10-31T17:02Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/osint/rdap_promoat.com.json,2900,eba11f7398afffee47c315df62e15e37dfe616e20439f8f66bb52c2cf4cbd8a4,2026-10-31T17:02Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/osint/rdap_techhive.dev.json,5885,be4470d3c27dde49699383d76d1fa6bacd5570c6781d97462b910a3661300e94,2026-10-31T17:02Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/osint/related_hexaflow.ai.html,200230,150ecee8cbe36bd04c11c11bd94333db3dda4da58c9ce57f0f1d64bcb8c58664,2026-10-31T17:02Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/osint/thirdparty_appgoblin.info_apps_6754813873.html,85784,f9d6218f1b9002be6c0056902f975a64d4b92bb1bbff9aa0c0d8d8fef791e31e,2026-10-31T17:08Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/osint/thirdparty_appgoblin.info_apps_com.hexaflow_ai.expoai.html,79045,0bc22c07a537afd199f9b77f033c5f7e50e87b2c15175db465e6094cb77de751,2026-10-31T17:08Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/osint/thirdparty_similarlabs.com_zh_p_appasap.html,255755,075ab8b12156dd2d94fd84d9c12be09da04198fb5a418bfcf2859a06e03e0cab,2026-10-31T17:03Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/osint/thirdparty_www.capterra.in_software_1088922_Promoat.html,155786,6fcbd0431d67ef9ecf1133da250a9e7b4cfa68d83eb8e5fe0858ca721dc10d54,2026-10-31T17:11Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/osint/thirdparty_www.getapp.com.au_software_2108729_promoat.html,96967,9ef35e391a9f81a73a89d989e227c1b3989943589c20a96c5770e415104dba3d,2026-10-31T17:03Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/osint/thirdparty_www.softwareadvice.co.uk_software_541099_Promoat.html,57842,82393790930ae8061b7a369bac6ea28cee8ee76215c558098ff2772797f81ffc,2026-10-31T17:03Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/osint/thirdparty_www.softwareadvice.com.au_software_541099_Promoat.html,57832,47a3ef99ef85ab3873c45a63fe76811bbef4272999345c24694926f4c44ab767,2026-10-31T17:03Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/osint/websearch_snippets_2026-10-31.txt,4582,06c6715403cd607997088f1453209a688189db45695ea243a01b7d9d472fd168,2026-10-31T17:16Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/screenshots/platform_promoat_ai_.png,304695,7e1d2d2c2aefd17d332fce274bb6931e3d39c21f1444f82f1816e6230d306f86,2026-10-31T16:59Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/screenshots/platform_promoat_ai_.rendered.txt,332,ecf560b07af6a70c7bac4e4027221dfe276a7f883d727a31c7fb782805bede4e,2026-10-31T16:59Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/screenshots/platform_promoat_ai_docs_credits_and_pricing.png,893257,5f0a9472f3c6a1b10b6ffcecf355c15b22421b9ea3dfdf36c2044115b67dbc09,2026-10-31T16:59Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/screenshots/platform_promoat_ai_docs_credits_and_pricing.rendered.txt,9116,c2eb4ece46c16dc50272b3d0bbb5f56f9631c3fe1597b0c8a6d401aebce88bda,2026-10-31T16:59Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/screenshots/platform_promoat_ai_sign_in.png,31638,22793a4b185fc177b9c720942dcb538ee97ae5f63ac846ecfc62ec504e9bd53c,2026-10-31T16:59Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/screenshots/platform_promoat_ai_sign_in.rendered.txt,208,54ac4ecea2d85b92fe6ba7bd3817d08fd5e15bc79fceed2cd700cbe4633a6b8e,2026-10-31T16:59Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/screenshots/platform_promoat_ai_sign_up.png,45825,0f4e8532167705a3308428df81caa1330ff3235c008a4fdb5194f918e5838fbb,2026-10-31T17:00Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/screenshots/platform_promoat_ai_sign_up.rendered.txt,260,f2d4c2fa9fba12862427db390242a0f631bfd095e00782d474573185b429d3ff,2026-10-31T17:00Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/screenshots/www_promoat_ai_.png,1096965,21231d9ce0fa81d96b7739d9e4b0efe0173f53f174328bb4027b234f85a62e44,2026-10-31T16:59Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/screenshots/www_promoat_ai_.rendered.txt,1886,1351b557786fb3f8f2b1ee721dafedeb66d4058a889e285617cc3c17da6dab5f,2026-10-31T16:59Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/screenshots/www_promoat_ai_privacy_policy.png,762922,ba321b775c9f1c33e3a8c309e3c2d1aa8c82266816cabe5e4edb7b371581a812,2026-10-31T16:59Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/screenshots/www_promoat_ai_privacy_policy.rendered.txt,5834,d2991dd265925fca9164c38698c84d4b155f9bc8fbd7c0067e7fdbe604b84cac,2026-10-31T16:59Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/web/docs_index.html,45069,0752fe97510d6eb684c9feacba8844c364a98ecf6b87fc61fae6d8c95fd3325c,2026-10-31T16:56Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/web/docs_index.txt,6906,02bf70a9c27c031f85d490bbfac838fa7bac4676a9e85284fa020282ed38d299,2026-10-31T16:56Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/web/docs_pricing.html,73769,9918a60136a7a3af8614c153af37d1a84bf4d3001a57e9a7ecef5b150b9916b3,2026-10-31T16:56Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/web/docs_pricing.txt,10001,2dcd719bc086bb2ba8eba3d65daea8faf59ea7a98d51f7549dc1f7501c59400f,2026-10-31T16:56Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/web/js_platform/__next_static_chunks_000u--b22b3dq.js,32702,9b14ce669f6849884e2a1ad0984edf605636664e962b8f7c18717dd3150ca77f,2026-10-31T16:58Z,platform.promoat.ai/_next/static/chunks/ (see list.txt)
+evidence/web/js_platform/__next_static_chunks_03~yq9q893hmn.js,112594,0973c1d64c88adc8e3c950410cb58b288f72118d5965b78049438deb8f2f9683,2026-10-31T16:58Z,platform.promoat.ai/_next/static/chunks/ (see list.txt)
+evidence/web/js_platform/__next_static_chunks_0g-qxb8fsks_m.js,226344,a9140a261c73372662a6c34c82d391aaca4726f9692fed5b99d4449daf1045ad,2026-10-31T16:58Z,platform.promoat.ai/_next/static/chunks/ (see list.txt)
+evidence/web/js_platform/__next_static_chunks_0h3a40utr1o.i.js,25834,080d2c7250977f3a29ea20201fd51127ed8cfda80da681ea8b4f66fb3e84c317,2026-10-31T16:58Z,platform.promoat.ai/_next/static/chunks/ (see list.txt)
+evidence/web/js_platform/__next_static_chunks_0nt.7hkfq0lw2.js,146242,d566e7e78d58df7b41b797ab1a1a0e6a7baa3d8d0ed37c99236c51a461f22660,2026-10-31T16:58Z,platform.promoat.ai/_next/static/chunks/ (see list.txt)
+evidence/web/js_platform/__next_static_chunks_0rzq1luh35ask.js,29027,dde12be36092fd913ed3c492122bcca7a158b839b0487a6e4243aab213966bc7,2026-10-31T16:58Z,platform.promoat.ai/_next/static/chunks/ (see list.txt)
+evidence/web/js_platform/__next_static_chunks_0sxyu26cgxp6i.js,54643,c8df020c2caa9759b6f4ce4086ec6a7ea23a8bfb5620080893fe93ac96537136,2026-10-31T16:58Z,platform.promoat.ai/_next/static/chunks/ (see list.txt)
+evidence/web/js_platform/__next_static_chunks_0tnvy-ohls08n.js,34101,6ef34eb0477a4333cb944001fa14b8438c961ff879aa149353c09da99dbfa8a8,2026-10-31T16:58Z,platform.promoat.ai/_next/static/chunks/ (see list.txt)
+evidence/web/js_platform/__next_static_chunks_0wu506t9rhh__.js,212273,dc8f3d690f0cd30ebc9a4a0991c3cfc3dfce882cd4f38321ebf7bd872feeeeeb,2026-10-31T16:58Z,platform.promoat.ai/_next/static/chunks/ (see list.txt)
+evidence/web/js_platform/__next_static_chunks_10~w4rjd-fgbz.js,55978,a182fda9bfb195263230eeb092b6a4c726fd90dea420ef03ba41ca64ab754cb6,2026-10-31T16:58Z,platform.promoat.ai/_next/static/chunks/ (see list.txt)
+evidence/web/js_platform/__next_static_chunks_11_cuc77zd4li.js,212273,7cb0ec38293c1fbb43ef4abe72515af5661f1618f15c7402db3fb8e898e9e04b,2026-10-31T16:58Z,platform.promoat.ai/_next/static/chunks/ (see list.txt)
+evidence/web/js_platform/__next_static_chunks_121qkj9hf0fq2.js,2410,7cf94653a68061176789d2f9c1ec337e3f86386a2b229d0fa8e69a82be6da372,2026-10-31T16:58Z,platform.promoat.ai/_next/static/chunks/ (see list.txt)
+evidence/web/js_platform/__next_static_chunks_136xq69n4vwap.js,8468,a5c6d656989e1f0fca10699338d970b55ed40a5f2148d6b9b657f398ff061b77,2026-10-31T16:58Z,platform.promoat.ai/_next/static/chunks/ (see list.txt)
+evidence/web/js_platform/__next_static_chunks_145o7dt9vjkws.js,43943,5f47ccb57c575db9544454da7273db73d9c9bc06c6e820ac2c6a486175cf8710,2026-10-31T16:58Z,platform.promoat.ai/_next/static/chunks/ (see list.txt)
+evidence/web/js_platform/__next_static_chunks_14sf-m2~7kge~.js,29626,af453a4f67bf91f6c3e3f8028e05cdcd8ab9745314c02e241fbd8f8d8206d04c,2026-10-31T16:58Z,platform.promoat.ai/_next/static/chunks/ (see list.txt)
+evidence/web/js_platform/__next_static_chunks_turbopack-0gtdrkjprbabe.js,11041,81797260b22941cf6ef74472c37baeb7bb642d2f97f2204bc3c0f09ec79849c0,2026-10-31T16:58Z,platform.promoat.ai/_next/static/chunks/ (see list.txt)
+evidence/web/js_platform/list.txt,618,565fcc002676239fa006459c77ecc40acec6ef88ffd866ba5e0afcf71ebe514d,2026-10-31T16:58Z,platform.promoat.ai/_next/static/chunks/ (see list.txt)
+evidence/web/js_www/__next_static_chunks_0cz1d0mv5g_q7.js,112594,0973c1d64c88adc8e3c950410cb58b288f72118d5965b78049438deb8f2f9683,2026-10-31T16:58Z,www.promoat.ai/_next/static/chunks/ (see list.txt)
+evidence/web/js_www/__next_static_chunks_14mrh2-p_w84d.js,54646,a3ac200f3ab8bfa57cf78882057741ddb5c0fbc9e2490c5d951c099b37484206,2026-10-31T16:58Z,www.promoat.ai/_next/static/chunks/ (see list.txt)
+evidence/web/js_www/__next_static_chunks_15orcrkp-_9ct.js,50702,69a6bb99c3ffab75664c38bcf12faabd4bb9dc7e300605c030168809b21bc0b9,2026-10-31T16:58Z,www.promoat.ai/_next/static/chunks/ (see list.txt)
+evidence/web/js_www/__next_static_chunks_1d5_lacs-cq4e.js,18656,285bcdad42bfe0bd324c64d7b705050b1da1b641b6cd4478d9f7a32efde67051,2026-10-31T16:58Z,www.promoat.ai/_next/static/chunks/ (see list.txt)
+evidence/web/js_www/__next_static_chunks_25xuxg-c3u91l.js,19465,cc1bfbc1915f43121fadda639be2e9511275d26c4835fcd31a7b6f52cb35c07d,2026-10-31T16:58Z,www.promoat.ai/_next/static/chunks/ (see list.txt)
+evidence/web/js_www/__next_static_chunks_2p0gvx0htu4ka.js,42961,c4ad2f31b463fba02c356554ea658ad3abd6a41d9c0df181d8551902023975f2,2026-10-31T16:58Z,www.promoat.ai/_next/static/chunks/ (see list.txt)
+evidence/web/js_www/__next_static_chunks_31iarpvmym1z2.js,226356,4ebe2b9217c39e7e774d885dbe01a2621dcfaeefcd94f8cca44a0e7d388daf84,2026-10-31T16:58Z,www.promoat.ai/_next/static/chunks/ (see list.txt)
+evidence/web/js_www/__next_static_chunks_3px1fn4z13fiy.js,150565,84c01de138271cf1b8932ba9188cffd0e9d41c0274fc90beba71ac1703d7411f,2026-10-31T16:58Z,www.promoat.ai/_next/static/chunks/ (see list.txt)
+evidence/web/js_www/__next_static_chunks_3ygrfj0aze8yo.js,119352,7f2d22c5db37714bd765d74311bd821dbe0231a6079a1de7bbe254253fabd2be,2026-10-31T16:58Z,www.promoat.ai/_next/static/chunks/ (see list.txt)
+evidence/web/js_www/__next_static_chunks_turbopack-3koiwt8bbuife.js,11041,e7426071c0c188f22cd4516cf57ffba6d7f721a73eee4e3aa861fb08e8ad0afb,2026-10-31T16:58Z,www.promoat.ai/_next/static/chunks/ (see list.txt)
+evidence/web/js_www/list.txt,390,dfa076bfd1c8fe1abf6288bcade921484d0dc6de6623141d95d3b98383bb484e,2026-10-31T16:58Z,www.promoat.ai/_next/static/chunks/ (see list.txt)
+evidence/web/media/film-hania.mp4,37364682,eb3ee874b887b339fedd3f8c456d7fdb2f03876e458fcfd0b2a26a4460ad7d5a,2026-10-31T17:35Z,https://www.promoat.ai/media/film-hania.mp4
+evidence/web/media/hero-hania.mp4,1150762,dd7fc3aa9f5a9a7f12449e79c31095c682f0eee5716c0aaf0037efc33273aba7,2026-10-31T17:35Z,https://www.promoat.ai/media/hero-hania.mp4
+evidence/web/media/hero-sled.mp4,389315,7b4da87f95c610b7dba9a4c1598dc5d4d2331cbbfb6735be2e5e76b7caee97a2,2026-10-31T17:35Z,https://www.promoat.ai/media/hero-sled.mp4
+evidence/web/media/sd-dog-a.mp4,570469,d57054311c6c8c6612588f352e241011ba89941870a60099a94dc6ddd02f9ec9,2026-10-31T17:35Z,https://www.promoat.ai/media/sd-dog-a.mp4
+evidence/web/media/step-clone-older.mp4,481090,2fb9bbc9e85ea494e013c521b92b5dade4b14e85f932227d31a6aad21246eb44,2026-10-31T17:35Z,https://www.promoat.ai/media/step-clone-older.mp4
+evidence/web/media/walkthrough.mp4,3427907,f9ec570b033f6110ec56177f258968af9e51d6ff7f81ce29379a753a6bdb3d1a,2026-10-31T17:35Z,https://www.promoat.ai/media/walkthrough.mp4
+evidence/web/partner.html,10129,fbd19d6bfec2ba7ef3438b1b10676fa453ca9b448f8ecac25aef7ef19904bdad,2026-10-31T16:58Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/web/platform_robots.html,11444,0d2a93041d2405335ac3fed7e64165d81c7f3900005a098b8104584c6c1cf25c,2026-10-31T16:56Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/web/platform_root.html,15121,c697d9fba997853b7e90a1ac06bcc84ed4256702d9faead7713cb3c48f6be014,2026-10-31T16:56Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/web/platform_root.txt,323,ac83c8b0e59327f19a22a429e9e2055c84a96e9233020b50e9440403a3308001,2026-10-31T16:56Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/web/platform_sitemap.html,11444,0d2a93041d2405335ac3fed7e64165d81c7f3900005a098b8104584c6c1cf25c,2026-10-31T16:56Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/web/sign_in.html,11934,fc049caf21348cb4a298a4021ce1d4dd5c33d0aca55b39109176d0b7908b76d1,2026-10-31T16:58Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/web/www_robots.html,68,322580635bf0e3d29e5434c497bd58694f1fb32bd02217c87e26d4ddf20f8438,2026-10-31T16:56Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/web/www_root.html,94390,685486de9fc8a8d569c9909bda0a422c5b18155154bf7525f91b7a3cce5256e5,2026-10-31T16:56Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/web/www_root.txt,3404,add6f36f26d108f74ada4cd3a45d2ecb71d6c380ee7dbf28c2d5622214cb0f1f,2026-10-31T16:56Z,(source named in file name or in OSINT_FINDINGS.md)
+evidence/web/www_sitemap.html,2513,e68d0741bdc157071990966946ed0d94c171f9ac682346c13571d5163c8faacb,2026-10-31T16:56Z,(source named in file name or in OSINT_FINDINGS.md)

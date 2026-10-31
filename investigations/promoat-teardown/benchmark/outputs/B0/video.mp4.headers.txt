@@ -1,0 +1,14 @@
+HTTP/1.1 200 Connection Established
+
+HTTP/1.1 200 OK
+Date: Sat, 31 Oct 2026 17:40:25 GMT
+Content-Type: video/mp4
+Content-Length: 2315429
+Connection: keep-alive
+Accept-Ranges: bytes
+Cache-Control: public, max-age=86400
+ETag: "e5dcfc0546d9756a4179e5df05f2b0f7"
+Last-Modified: Sat, 31 Oct 2026 17:40:04 GMT
+Server: cloudflare
+CF-RAY: a53471dbfa485001-IAD
+

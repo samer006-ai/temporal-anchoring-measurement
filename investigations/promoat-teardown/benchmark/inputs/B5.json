@@ -1,0 +1,16 @@
+{
+ "mode": "scenes",
+ "character_id": "8cf7c5cb-e5a6-45ea-bece-6cb1dafe65bd",
+ "voice_id": "sv_daniel_42d444368f71",
+ "script": "تعرّفوا على زيتون، زيت الزيتون البكر الممتاز من حقول الشمال. عصرة أولى على البارد، بطعم غني ورائحة طازجة. اطلبوه اليوم واحصلوا على خصم عشرين بالمئة.",
+ "language": "ar",
+ "video_idea": "the presenter introduces a premium olive oil bottle in a bright home kitchen, holding it up to the camera",
+ "scene_photos": [
+  {
+   "url": "__P1_URL__",
+   "role": "product",
+   "caption": "ZAYTOON extra virgin olive oil bottle with green leaf logo"
+  }
+ ],
+ "resolution": "768P"
+}

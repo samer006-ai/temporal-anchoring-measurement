@@ -1,0 +1,52 @@
+{
+ "file": "video.mp4",
+ "probe": {
+  "width": 720,
+  "height": 1264,
+  "fps": 24.0,
+  "duration_s": 5.056,
+  "video_codec": "h264",
+  "profile": "High",
+  "pix_fmt": "yuv420p",
+  "video_bitrate": "3521568",
+  "audio_codec": "aac",
+  "audio_sample_rate": "48000",
+  "audio_channels": 2,
+  "audio_bitrate": "144264",
+  "format_tags": {
+   "major_brand": "isom",
+   "minor_version": "512",
+   "compatible_brands": "isomiso2avc1mp41",
+   "encoder": "Lavf58.76.100"
+  },
+  "video_tags": {
+   "language": "und",
+   "handler_name": "VideoHandler",
+   "vendor_id": "[0][0][0][0]"
+  },
+  "audio_tags": {
+   "language": "und",
+   "handler_name": "SoundHandler",
+   "vendor_id": "[0][0][0][0]"
+  },
+  "size_bytes": 2315429
+ },
+ "scene_cuts_s": [],
+ "face_detected_share": 1.0,
+ "lipsync_proxy": {
+  "best_lag_frames": -2,
+  "best_lag_ms": -83,
+  "corr_at_best": 0.562,
+  "corr_at_0": 0.497,
+  "silent_frame_share": 0.438,
+  "open_mouth_during_silence_share": 0.17
+ },
+ "identity_proxy": {
+  "vs_ref_mean": 0.63,
+  "vs_ref_min": 0.548,
+  "frames": 24,
+  "vs_first_frame_mean": 0.854,
+  "vs_first_frame_min": 0.778,
+  "frames_with_face_of_24": 24
+ }
+}
