@@ -11,3 +11,4 @@ utc,item,kind,credits_delta,credits_balance_after,cash_usd,credits_value_usd_at_
 2026-10-31T17:40Z,B0 video settled (consumed 9 = reserve; no refund due),settle,0,2,0.00,0.00,0.00,100.00,benchmark/outputs/B0/final_status.json
 2026-10-31T17:50Z,Local tools (faster-whisper large-v3; MediaPipe; OpenCV models from Hugging Face/Google),tooling,0,2,0.00,0.00,0.00,100.00,"no paid external service; session compute is not metered here and is NOT assumed to be zero-cost"
 2026-10-31T17:50Z,Cloud resources created for this work,infrastructure,0,2,0.00,0.00,0.00,100.00,none created (work runs inside the session container; nothing to stop)
+2026-10-31T19:42Z,Balance check after 2 h of polling: Weekly plan not paid; no cash spent,check,0,2,0.00,0.00,0.00,100.00,"Stripe Checkout sessions usually expire after 24 h; a new link can be generated from Dashboard > Plans"
