@@ -62,3 +62,26 @@ before commercial use even though the UAE itself is inside the licensed territor
   A2Vid pipeline github.com/Lightricks/LTX-2 (packages/ltx-pipelines/src/ltx_pipelines/a2vid_two_stage.py);
   Skywork Community Licence (github.com/SkyworkAI/Skywork); Hunyuan licence github.com/Tencent-Hunyuan/HunyuanVideo-Avatar/blob/main/LICENSE;
   MiniMax H3 LICENSE on its HF repo; WanGP model guide github.com/deepbeepmeep/Wan2GP/blob/main/docs/MODELS.md.
+
+## Hosting options (checked 2026-11-01)
+
+Hetzner GPU line (official matrix, prices excl. VAT; locations HEL1 Helsinki and FSN1 Falkenstein, i.e. EU only):
+
+| Server | GPU / VRAM | RAM | Monthly | Hourly | One-time setup |
+|---|---|---|---|---|---|
+| GEX45 | RTX PRO 4000 Blackwell SFF, 24 GB | 64 GB DDR4 | EUR 214 | EUR 0.3429 | EUR 209 |
+| GEX63 | RTX PRO 6000 Blackwell Max-Q, 96 GB | 128 GB DDR5 | EUR 999 | EUR 1.6009 | EUR 999 |
+| GEX131 | RTX PRO 6000 Blackwell Max-Q, 96 GB | from 256 GB DDR5 ECC | from EUR 1,499 | from EUR 2.4022 | EUR 1,499 |
+| GEX430 | 4x RTX PRO 6000 Blackwell Max-Q, 4x96 GB | 128 GB DDR5 | EUR 3,599 | EUR 5.7676 | EUR 3,599 |
+
+- Hardware does not change a model's output quality; it decides speed, whether full-precision weights fit (compressed
+  builds can cost some quality), and how long / how high-resolution a clip fits in memory.
+- GEX45 has the same VRAM as the local RTX 3090; its gain is native FP8/FP4 (Blackwell) and 64 GB RAM, not capacity.
+- The setup fee equals one month and is charged even for hourly use: poor value for short tests, reasonable for
+  always-on production.
+- **Licence:** Hetzner servers are in the EU. MiniMax H3 and HunyuanVideo-Avatar licences exclude the EU, so they cannot
+  be run there without a separate licence. Apache/MIT/LTX/Skywork models are not affected.
+- Hourly clouds without setup fees for tests (third-party snapshots, Sep 2026, verify before use): H100 about USD 1.9-3.3/h,
+  RTX 5090 about USD 0.69-0.99/h.
+- Cost per video = GPU price per hour x compute time per video. Measure compute seconds per video second on the local
+  3090 first, then on one rented large GPU for a day, before committing to monthly hosting.
