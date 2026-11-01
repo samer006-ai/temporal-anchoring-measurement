@@ -3,8 +3,11 @@
 Checked 2026-11-01 from each model's own card / licence (Hugging Face API + repository files).
 Criteria from the owner: open weights; takes an uploaded speech file and lip-syncs **during** generation; generates the
 person from a reference image; 720p or higher; commercial use allowed; usable in the UAE.
-Test machine (owner's DxDiag): Windows 11 Pro, Ryzen 7 5800X, 32 GB RAM, NVIDIA RTX 3090 24 GB (DxDiag shows two
-display tabs with an RTX 3090; whether that is one card with two monitors or two cards is to be confirmed with `nvidia-smi -L`).
+Test machine (owner's DxDiag): Windows 11 Pro, Ryzen 7 5800X, 32 GB RAM, NVIDIA RTX 3090 24 GB, **one GPU** (confirmed by
+`nvidia-smi -L` on 2026-11-01; the two DxDiag display tabs are two monitors on the same card).
+Consequences: LongCat's official 2-GPU context-parallel examples do not apply (use WanGP's single-GPU build); Ampere has
+no native FP8 or NVFP4 compute, so fp8 files save memory but not time, and NVFP4 builds are not usable; INT8/GGUF builds
+are the practical choice; with 32 GB RAM, enlarge the Windows page file before loading 19-33B models.
 
 ## A. Meets every criterion
 
