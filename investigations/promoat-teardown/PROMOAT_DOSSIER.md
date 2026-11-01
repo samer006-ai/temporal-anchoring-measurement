@@ -125,7 +125,7 @@ back end is "extracted"; it is inferred from API behaviour, file fingerprints an
 | First frame | 9:16 still of the character in the scene | Same image model | FP-01, BM-B0 | Medium-high | same |
 | Voice / TTS / cloning | 8 studio voices, clone from 25-60 s samples, voice_settings | **ElevenLabs** (direct or via reseller) | FP-02 | High | A reseller exposing ElevenLabs |
 | Speech timing | "transcription" line on every voiced video | UNKNOWN ASR / forced alignment | API-06 | — | ElevenLabs alignment, Whisper-type ASR |
-| Lip-sync / talking head | Lip-sync happens **inside** video generation: first frame + speech audio go into one audio-driven generator, in 5-14.5 s windows, then merged. No separate lip-sync pass | Mechanism: INFERENCE (medium-high). Model: UNKNOWN | API-13, FP-04, BM-B0 | Mechanism medium-high; model none | Until May 2026 the company described a separate post-pass ("FAL lipsync" on Kling clips, OS-24); the legacy `lipsync` switch from that era is now ignored |
+| Lip-sync / talking head | Lip-sync happens **inside** video generation: first frame + speech audio go into one audio-driven generator, in 5-14.5 s windows, then merged. No separate lip-sync pass | Mechanism: INFERENCE (medium-high). Model candidate: **MiniMax H3 Ref2VA** (INFERENCE, medium; FP-06) | API-13, FP-04, FP-06, BM-B0 | Mechanism medium-high; model none | Until May 2026 the company described a separate post-pass ("FAL lipsync" on Kling clips, OS-24); the legacy `lipsync` switch from that era is now ignored |
 | Scene video | Character acts across ~7-8 s clips, optional product/setting photos | UNKNOWN video model | API-10 | Low | same |
 | Captions | Word-by-word burned captions, Latin + Arabic | UNKNOWN (in-house render or Submagic-type tool) | docs, OS-24 | Low | — |
 | Assembly / export | Concatenate windows, mux 48 kHz AAC, x264 crf 18 | FFmpeg 4.4 (Ubuntu-22.04-style build) on a ~26-core machine | FP-05 | Medium | — |
@@ -154,6 +154,14 @@ back end is "extracted"; it is inferred from API behaviour, file fingerprints an
   excluded: an image-to-video model driven by a motion prompt plus a lip-sync model re-run from scratch on every audio
   change; the free/paid split in (1) makes this less likely. Decisive test (not run, needs credits): feed one window of
   non-speech audio (music, then silence) and see whether head/body motion follows the audio.
+- **FP-06 strongest candidate: MiniMax H3 (open weights since 2026-07-28).** Its Ref2VA checkpoint takes up to three
+  audio references within a 15-second budget and can keep the uploaded speech while generating video around it; default
+  short side 768 px ("768P"), 24 fps, 4-15 s per clip. Promoat matches on: job prefixes `partner_h3t_`/`partner_h3v_`,
+  "768P" naming and default, 24 fps, windows of at most 14.5 s, and "new video engines" two months after H3's release.
+  Does not match: our B0 file is 720×1264 (short side 720). Confidence: medium. If true, note that H3's community
+  licence excludes the EU, UK, South Korea and USA and requires a visible "MiniMax H3" notice; Promoat's operator is an
+  EU (Lithuanian) company and shows no such notice, so either they hold a separate licence, use MiniMax's paid API, or
+  use a different model. Not verifiable from outside (`evidence/fingerprints/h3_and_licenses_2026-11-01.txt`).
 - **FP-04 video model.** Not identified. Observed: 720×1264 at 24 fps for "768P"; talking heads lip-synced in 5-14.5 s
   windows; scene clips planned at 7-8 s; job-id prefixes `partner_h3t_` (talking head), `partner_h3v_`, `partner_se_`
   (scene edits), `partner_fs_` (fix sound). Price per second is the same at every resolution, which hints that
@@ -272,6 +280,12 @@ and lip-sync during generation:
 | InfiniteTalk (open weights, Wan-based) hosted | $0.015 (Fast) / $0.03-0.06 (standard 480p-720p) | WaveSpeed model page |
 | LongCat-Video-Avatar 1.5 (open weights, Meituan, May 2026) | self-host only (GPU cost) | arXiv 2605.26486 |
 | Seedance 2.0 (accepts up to 3 audio references) / Wan 2.6 i2v (WAV/MP3 drives lip-sync) | not verified for the audio mode | third-party guides |
+| MiniMax H3 Ref2VA (open weights, 2026-07-28; community licence, excludes EU/UK/KR/US) | self-host (GPU cost); MiniMax API price not checked | HF model card + LICENSE |
+| Kling 4.0 (Oct 2026) | not this mode: lip-syncs the speech it generates itself; reference audio reportedly voice-only | third-party coverage |
+
+Licences for self-hosting (checked 2026-11-01): InfiniteTalk Apache-2.0 (base Wan2.1 Apache-2.0, audio encoder MIT);
+LongCat-Video-Avatar 1.5 MIT (Whisper-Large audio encoder, likely better suited to Arabic than InfiniteTalk's
+Chinese wav2vec2; untested); MiniMax H3 community licence with territorial exclusions and attribution duties.
 
 Reading (INFERENCE): Promoat's video seconds are 3-10x cheaper than the closed premium models but in the range of a
 hosted open-weights model, and cheaper than that if self-hosted. The October price cut arrived **together with** a

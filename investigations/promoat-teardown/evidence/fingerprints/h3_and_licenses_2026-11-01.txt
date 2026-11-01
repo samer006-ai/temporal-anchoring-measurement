@@ -1,0 +1,13 @@
+Captured 2026-11-01 (UTC) from public model cards / repositories. Short excerpts only.
+
+MiniMaxAI/MiniMax-H3 (Hugging Face, created 2026-07-28, license "minimax-h3-community-license-agreement")
+- Model card: "Output duration | 4-15 seconds"; "Output resolution | ... The shorter side is set to 768 pixels by default"; "Output frame rate | 24 FPS"; "Output audio | 32 kHz stereo".
+- Two checkpoints: H3-Base-FL2VA (first/last frame) and H3-Base-Ref2VA ("Audio: <= 3 clips" as references); 33B dense transformer; open weights.
+- WanGP README (deepbeepmeep/Wan2GP): "H3 Keeps Your Soundtrack: Ref2VA can now build a video around uploaded speech/music ... keeping the original audio synchronized across sliding windows"; audio references share a 15-second budget.
+- LICENSE: "'Applicable Territory' means worldwide, excluding the Excluded Territories." "'Excluded Territories' means the European Union, the United Kingdom, the Republic of Korea and the United States of America."
+  Commercial: display "Powered by MiniMax H3" / "MiniMax H3" on the product UI; separate written authorization above USD 20 million revenue; bind users to the use restrictions; outputs may not be used outside the Applicable Territory; AUP item 12 requires disclosing machine-generated content in public environments. "MiniMax claims no rights over the Outputs you generate."
+Promoat clues matching H3: job prefixes partner_h3t_/partner_h3v_; "768P" default; 24 fps output; talking heads cut into windows of 5-14.5 s (<= 15 s); "new video engines" from 2026-09-30, two months after H3 weights. Not matching: our B0 output is 720x1264 (short side 720, not 768). No "MiniMax H3" notice seen on promoat.ai, docs or JS bundles (grep, 2026-11-01).
+
+MeiGen-AI/InfiniteTalk: LICENSE.txt = Apache License 2.0; README: "We claim no rights over the your generated contents"; base Wan-AI/Wan2.1-I2V-14B-480P = apache-2.0; audio encoder TencentGameMate/chinese-wav2vec2-base = mit. README offers --num_persistent_param_in_dit 0 (very low VRAM), fp8 quantization, Gradio app, ComfyUI (kijai WanVideoWrapper) and Wan2GP integration.
+meituan-longcat/LongCat-Video-Avatar-1.5 (2026-05-21): license mit; uses Whisper-Large audio encoder (openai/whisper-large-v3 = apache-2.0); 480P/720P; --use_int8 for lower VRAM.
+Kling 4.0 (Oct 2026): third-party coverage says native stereo audio and multilingual lip-sync of the speech it generates; official spec reportedly lists reference audio as voice reference only; a reseller says audio input is not exposed in the API yet. Official page kling.ai/dev/model-release/kling-4 did not render for our fetcher.

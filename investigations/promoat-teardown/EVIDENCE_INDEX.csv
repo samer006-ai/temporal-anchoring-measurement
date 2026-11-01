@@ -28,6 +28,7 @@ FP-01,"Image outputs match Google Gemini image models' official 2K sizes (4:3=24
 FP-02,TTS/cloning is ElevenLabs: 8 studio voices = ElevenLabs default names; voice_settings names/ranges; MP3 44.1kHz/128k mono,evidence/docs/voices.txt; benchmark/outputs/tts_s2_daniel.mp3,2026-10-31T17:30Z,INFERENCE (high)
 FP-04,"Video model not identified: 720x1264 @24 fps for '768P', lip-sync windows 5-14.5 s, scene clips 7-8 s, job prefixes partner_h3t_/h3v_/se_/fs_",benchmark/outputs/B0/video.av.json; evidence/docs/talking-head-videos.txt; evidence/docs/video-edits.txt,2026-10-31T17:41Z,UNKNOWN
 FP-05,Final MP4 muxed by FFmpeg 4.4 (Lavf58.76.100) with x264 core 163 crf=18 threads=39; TTS re-muxed by FFmpeg 8.x (Lavf63),benchmark/outputs/B0/video.mp4; benchmark/outputs/tts_s2_daniel.mp3,2026-10-31T17:41Z,OBSERVED
+FP-06,"Strongest candidate engine is MiniMax H3 Ref2VA (job prefixes h3t/h3v, 768P default, 24 fps, <=15 s windows, timing); output 720x1264 does not match the 768 default",evidence/fingerprints/h3_and_licenses_2026-11-01.txt,2026-11-01,INFERENCE (medium)
 AND-01,Android app not installed/tested: no KVM in the container; official APK requires Google Play on a signed-in device; mirrors not used,evidence/android_env_check.txt,2026-10-31T16:58Z,OBSERVED
 BM-B0,"5 s talking head (own audio + own first frame): 9 credits quoted=charged, 69 s server time, 720x1264 24fps, identity proxy 0.63 vs sheet",benchmark/outputs/B0/,2026-10-31T17:40Z,OBSERVED
 BM-B8,Failure/invalid-input tests: no credits charged,evidence/api/calls.jsonl,2026-10-31T17:28Z,OBSERVED
@@ -66,3 +67,4 @@ OS-46,Templated founder replies 2026-10-28,evidence/osint/OSINT_FINDINGS.md (+ r
 OS-48,"DNS: Cloudflare, Vercel, Zoho mail, no DMARC",evidence/osint/OSINT_FINDINGS.md (+ raw captures in evidence/osint/),2026-10-31,see OSINT file
 OS-49,Subdomains from CT logs,evidence/osint/OSINT_FINDINGS.md (+ raw captures in evidence/osint/),2026-10-31,see OSINT file
 OS-52,Mobile app technical facts from listings,evidence/osint/OSINT_FINDINGS.md (+ raw captures in evidence/osint/),2026-10-31,see OSINT file
+LIC-01,InfiniteTalk weights/code Apache-2.0; Wan2.1 base Apache-2.0; chinese-wav2vec2-base MIT; LongCat-Video-Avatar 1.5 MIT; MiniMax H3 community licence excludes EU/UK/KR/US and requires a 'MiniMax H3' notice,evidence/fingerprints/h3_and_licenses_2026-11-01.txt,2026-11-01,OFFICIAL
