@@ -125,7 +125,7 @@ back end is "extracted"; it is inferred from API behaviour, file fingerprints an
 | First frame | 9:16 still of the character in the scene | Same image model | FP-01, BM-B0 | Medium-high | same |
 | Voice / TTS / cloning | 8 studio voices, clone from 25-60 s samples, voice_settings | **ElevenLabs** (direct or via reseller) | FP-02 | High | A reseller exposing ElevenLabs |
 | Speech timing | "transcription" line on every voiced video | UNKNOWN ASR / forced alignment | API-06 | — | ElevenLabs alignment, Whisper-type ASR |
-| Lip-sync / talking head | Audio-driven animation of the first frame, in 5-14.5 s windows, merged | UNKNOWN video model(s) | FP-04, docs | Low | Company named Kling video + FAL lip-sync in May 2026 (OS-24), but engines changed in Sep-Oct 2026 |
+| Lip-sync / talking head | Lip-sync happens **inside** video generation: first frame + speech audio go into one audio-driven generator, in 5-14.5 s windows, then merged. No separate lip-sync pass | Mechanism: INFERENCE (medium-high). Model: UNKNOWN | API-13, FP-04, BM-B0 | Mechanism medium-high; model none | Until May 2026 the company described a separate post-pass ("FAL lipsync" on Kling clips, OS-24); the legacy `lipsync` switch from that era is now ignored |
 | Scene video | Character acts across ~7-8 s clips, optional product/setting photos | UNKNOWN video model | API-10 | Low | same |
 | Captions | Word-by-word burned captions, Latin + Arabic | UNKNOWN (in-house render or Submagic-type tool) | docs, OS-24 | Low | — |
 | Assembly / export | Concatenate windows, mux 48 kHz AAC, x264 crf 18 | FFmpeg 4.4 (Ubuntu-22.04-style build) on a ~26-core machine | FP-05 | Medium | — |
@@ -143,6 +143,17 @@ back end is "extracted"; it is inferred from API behaviour, file fingerprints an
 - **FP-02 TTS.** The eight studio voices (Brian, Daniel, George, Chris, Sarah, Laura, Alice, Jessica) are ElevenLabs'
   default voice names; `voice_settings` uses ElevenLabs' parameter names and ranges (stability, similarity_boost,
   style, speed 0.7-1.2); TTS output is MP3 44.1 kHz mono 128 kbps (ElevenLabs' default format), re-muxed by FFmpeg 8.x.
+- **API-13 lip-sync mechanism.** Four independent clues say the talking-head engine generates the whole clip from the
+  first frame **and** the audio, rather than generating motion first and patching the mouth afterwards:
+  (1) replacing the sound of a talking head re-generates the video at the new take's length (plan `regenerate`, paid);
+  only a scene video with nobody speaking on camera gets a free audio swap (docs, video-edits);
+  (2) `lipsync_credits` is always 0 and the old `lipsync` on/off switch is ignored, so there is no separately billed
+  lip-sync stage (OpenAPI, changelog 1.1.0); (3) changelog 1.2.1 fixed the engine changing outfit, hair, place and
+  framing and "drawing captions" on talking heads, which a mouth-only lip-sync model cannot do; (4) in B0 the head,
+  hands, expression and background all move, and the mouth closes when the audio goes silent. Alternative that is not
+  excluded: an image-to-video model driven by a motion prompt plus a lip-sync model re-run from scratch on every audio
+  change; the free/paid split in (1) makes this less likely. Decisive test (not run, needs credits): feed one window of
+  non-speech audio (music, then silence) and see whether head/body motion follows the audio.
 - **FP-04 video model.** Not identified. Observed: 720×1264 at 24 fps for "768P"; talking heads lip-synced in 5-14.5 s
   windows; scene clips planned at 7-8 s; job-id prefixes `partner_h3t_` (talking head), `partner_h3v_`, `partner_se_`
   (scene edits), `partner_fs_` (fix sound). Price per second is the same at every resolution, which hints that
