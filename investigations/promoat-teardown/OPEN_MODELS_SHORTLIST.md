@@ -37,7 +37,12 @@ before commercial use even though the UAE itself is inside the licensed territor
 
 ## D. Excluded
 - `OmniAvatar/OmniAvatar-14B`: "480p only for now". `FrancisRing/StableAvatar`: 480x832. `MeiGen-AI/MeiGen-MultiTalk`: superseded by InfiniteTalk.
-- `Soul-AILab/SoulX-FlashTalk-14B` (>64 GB single GPU) and `Quark-Vision/Live-Avatar` (80 GB; 5xH800 for real time): real-time streaming systems, not runnable on one 24 GB card.
+- Real-time streaming family (checked again 2026-11-01 against the GitHub READMEs, which are newer than the HF cards):
+  - `Soul-AILab/SoulX-FlashTalk-14B` (Apache-2.0): single GPU needs >64 GB, or ~40 GB with `--cpu_offload`; real time needs 8xH800. Not runnable on 24 GB.
+  - `Quark-Vision/Live-Avatar` (Apache-2.0): single GPU needs 80 GB, or 48 GB with FP8 (v1.1, 2026-01-20). Not runnable on 24 GB.
+  - `Soul-AILab/LiveAct` (SoulX-LiveAct, Apache-2.0, 2026-03): consumer-GPU mode since 2026-03-18 (FP8 KV cache + CPU offload, ~6 fps on one RTX 4090), but output 416x720 / 480x832 / 512x512: fails the 720p rule. Untested on an RTX 3090 (no native FP8).
+  - `Soul-AILab/SoulX-FlashHead-1_3B` (2026-02): real time on one RTX 4090, but 512x512 talking head and licence marked "other" with no licence file on HF: fails the 720p rule, licence unclear.
+  Real time matters for live interactive avatars, not for producing finished reels, so this family is out of scope here.
 - `chetwinlow1/Ovi`, Kandinsky 6: generate their own speech; no uploaded speech file.
 - Post-hoc lip-sync tools (LatentSync, MuseTalk, Wav2Lip family): not lip-sync during generation.
 - Kling 4.0 / Kling Avatar, OmniHuman, Seedance, Wan 2.5/2.6, HeyGen, Hedra: closed weights.
