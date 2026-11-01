@@ -257,6 +257,32 @@ criteria: `benchmark/BENCHMARK_PLAN.md` (committed before any generation).
   October 2026 means either cheaper engines or a deliberate subsidy; we cannot tell which.
 - Cost per **acceptable** video (including rejected attempts) is computed in section 7 from our runs.
 
+### 9.1 Market reference: wholesale prices of audio-driven talking-video models (checked 2026-11-01)
+
+Promoat's retail price for video seconds is about **$0.013-0.022 per second** (60 s with own audio = 73 credits;
+generation line alone 58 credits). Public per-second API prices of models that take an image **plus an audio file**
+and lip-sync during generation:
+
+| Model (audio in, lip-sync in generation) | Wholesale price / s | Source (checked 2026-11-01) |
+|---|---|---|
+| ByteDance OmniHuman 1.5 | $0.16 | fal.ai model page |
+| Kling AI Avatar v2 Pro / Standard | $0.115 / $0.0562 | fal.ai model pages |
+| HeyGen Avatar IV (photo) API | ~$0.05 (resellers up to $0.085-0.10) | HeyGen blog, reseller listings |
+| Hedra Character-3 API | $0.025 (540p) / $0.05 (720p) / $0.0625 (1080p) | third-party read of Hedra price list, 2026-10-21 |
+| InfiniteTalk (open weights, Wan-based) hosted | $0.015 (Fast) / $0.03-0.06 (standard 480p-720p) | WaveSpeed model page |
+| LongCat-Video-Avatar 1.5 (open weights, Meituan, May 2026) | self-host only (GPU cost) | arXiv 2605.26486 |
+| Seedance 2.0 (accepts up to 3 audio references) / Wan 2.6 i2v (WAV/MP3 drives lip-sync) | not verified for the audio mode | third-party guides |
+
+Reading (INFERENCE): Promoat's video seconds are 3-10x cheaper than the closed premium models but in the range of a
+hosted open-weights model, and cheaper than that if self-hosted. The October price cut arrived **together with** a
+"new video engine" (changelog 1.2.0), and the final MP4 carries the fingerprint of a machine they or a GPU host
+control (FP-05). Most likely: a switch to a cheaper (probably open-weights) audio-driven engine, possibly plus some
+growth subsidy. Not proven; the engine is still unidentified.
+
+- **W-12 (OBSERVED 2026-11-01 07:22Z):** the "Limited offer ends Oct 31" countdown is gone from the plans page and
+  the prices are unchanged (Monthly $29.99 / 2,219; Weekly $9.99 / 559; Monthly 3.6× still offered). The deadline
+  changed nothing visible.
+
 ## 10. Unknowns that matter
 
 | Unknown | Why it matters | How it could be resolved |
