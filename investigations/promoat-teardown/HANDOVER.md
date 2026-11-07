@@ -1,6 +1,13 @@
 # Handover: Promoat teardown
 
-Last updated: 2026-10-31 (UTC). Read this first if you resume the work in a new session.
+Last updated: 2026-11-07 (UTC). Read this first if you resume the work in a new session.
+
+## Remaining items (status on 2026-11-07)
+- Paid benchmark matrix (B1, B2×2, B4, B5, B6, B7, idempotency duplicate): **blocked, waiting for the owner's payment**. Balance is still 2 credits (free `GET /usage/summary`, 2026-11-07 13:13Z); the 2026-10-31 Checkout link has expired, so a new one is needed; inputs ready in `benchmark/inputs/`.
+- Human audio evaluation (Levantine TTS sample and the B0 clip): **waiting for the owner's listening** against `benchmark/BENCHMARK_PLAN.md`; open point: Whisper heard «تلاتة بعشرين ألف» as «23 ألف».
+- Private report page https://claude.ai/artifact/NDgnVsKKyDPtnobqWp2gpc: **live and private**; holds the deliverables and withheld evidence as of 2026-11-01; `UI_PATTERNS_AR.md` and this update are not on it yet.
+- Android app: **not testable here** (no KVM); needs a real device, about 30 minutes.
+- Real-face path: **skipped by the owner**; synthetic-face results do not replace it.
 
 ## Scope changes from the owner (binding)
 - **The comparison with the owner's own product was cancelled.** Do not read, use or mention that product or its
@@ -10,18 +17,22 @@ Last updated: 2026-10-31 (UTC). Read this first if you resume the work in a new 
 - **Real-face path:** skipped by the owner. Do not substitute synthetic-face results for it.
 - Rules that still apply: no copying of Promoat code/assets/text, no bypassing auth/limits/protections, no load tests,
   no third-party data, secrets never in files or reports.
+- **2026-11-07:** the launch coordinator session, acting on the owner's order of that day, asked for original, generic
+  UI patterns from this teardown. Being written as `UI_PATTERNS_AR.md` (committed separately once checked): it names
+  no other product, copies no Promoat text, code or assets, and no paid case is run for it. No conflict with the
+  owner's rulings above was found.
 
 ## State
 | Area | Status |
 |---|---|
 | Public sources, docs (17 pages), OpenAPI, SKILL.md, JS bundles, headers | Done (`evidence/web`, `evidence/docs`) |
 | OSINT company/founders/timeline/reviews | Done (`evidence/osint/OSINT_FINDINGS.md`, IDs OS-01..52) |
-| Research account | Created 2026-10-31 17:21Z with the owner-approved e-mail. 25 trial credits used (balance 2) |
+| Research account | Created 2026-10-31 17:21Z with the owner-approved e-mail. 25 trial credits used (balance 2, re-read 2026-11-07) |
 | Free tests | B8 failure tests (0 credits), TTS Shami (10), first frame + 5 s talking head B0 (13) |
-| Paid plan | **Stripe Checkout link for Weekly $9.99 handed to the owner; payment not yet received when this was written** |
+| Paid plan | **Stripe Checkout link for Weekly $9.99 handed to the owner on 2026-10-31; no payment received by 2026-11-07; the link has expired** |
 | Paid benchmark matrix (B1, B2×2, B4, B5, B6, B7, idempotency duplicate) | Pending payment. Inputs ready in `benchmark/inputs/` |
 | Android | Not testable here (no KVM, no official APK without a signed-in device). Documented in AND-01 |
-| Deliverables | `PROMOAT_DOSSIER.md`, `EVIDENCE_INDEX.csv`, `COST_LEDGER.csv`, `BENCHMARK_RESULTS.csv`, `EXECUTIVE_SUMMARY_AR.md`, this file |
+| Deliverables | `PROMOAT_DOSSIER.md`, `EVIDENCE_INDEX.csv`, `COST_LEDGER.csv`, `BENCHMARK_RESULTS.csv`, `EXECUTIVE_SUMMARY_AR.md`, `OPEN_MODELS_SHORTLIST.md` (2026-11-01), `UI_PATTERNS_AR.md` (2026-11-07, in progress), this file |
 
 ## Where things are
 - Pre-registered plan: `benchmark/BENCHMARK_PLAN.md` (first commit, before any generation).
