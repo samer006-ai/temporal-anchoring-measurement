@@ -5,7 +5,7 @@ HTTP status of legal-page candidates (curl, 2026-10-31 ~17:00Z):
 404 https://www.promoat.ai/terms
 404 https://www.promoat.ai/terms-of-service
 404 https://www.promoat.ai/terms-of-use
-200 https://www.promoat.ai/privacy-policy   (Last updated: February 16, 2026; contact hexaflowai@gmail.com)
+200 https://www.promoat.ai/privacy-policy   (Last updated: February 16, 2026; contact: a free Gmail address, withheld here)
 404 https://www.promoat.ai/eula
 404 https://www.promoat.ai/refund-policy
 Only "/privacy-policy" appears as a legal link in the www and platform JS bundles.

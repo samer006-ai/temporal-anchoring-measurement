@@ -24,7 +24,7 @@
 - Accessed: 2026-10-31
 - Type: OFFICIAL_SOURCE + OBSERVED
 
-**OS-02: The privacy policy names no data controller or company.** It says "Last updated: February 16, 2026" and refers to "the Company" and "We", but its "Interpretation and Definitions" heading has no content. It gives no address, governing law or GDPR basis. The only contact is **hexaflowai@gmail.com**. promoat.ai has no Terms of Service page (`/terms` and `/terms-of-service` return 404). The iOS listing links Apple's standard EULA.
+**OS-02: The privacy policy names no data controller or company.** It says "Last updated: February 16, 2026" and refers to "the Company" and "We", but its "Interpretation and Definitions" heading has no content. It gives no address, governing law or GDPR basis. The only contact is **a free Gmail address under the developer-brand name** (address withheld here). promoat.ai has no Terms of Service page (`/terms` and `/terms-of-service` return 404). The iOS listing links Apple's standard EULA.
 - Source: https://www.promoat.ai/privacy-policy (`official_promoat.ai_privacy-policy.html`)
 - Source date: 2026-02-16
 - Accessed: 2026-10-31
@@ -54,7 +54,7 @@
   - Developer name: **HexaFlow AI**.
   - Package: `com.hexaflow_ai.expoai`.
   - Website: https://www.promoat.ai/.
-  - Support email: **moatassem@techhive.dev**.
+  - Support email: **a named person's address at the affiliated agency's domain** (address withheld here).
 - "About the developer" shows:
   - An individual's name: "abdelhaleem moatassem desouky ahmed mohamed".
   - A personal Gmail address (not reproduced here).
@@ -68,7 +68,7 @@
 
 **OS-06: hexaflow.ai, an affiliated AI-agency site, links HexaFlow to UAB Appasap and to Moatassem.**
 - Site title: "HexaFlow - AI Solutions Agency". It offers workflow automation and custom AI on a subscription.
-- Contact block: "Office LT-44319, Kaunas, Lithuania, **UAB Appasap**". Email jasmin@techhive.dev. WhatsApp number with the **+20 (Egypt)** country code.
+- Contact block: "Office LT-44319, Kaunas, Lithuania, **UAB Appasap**". E-mail: a named person's address at the same domain (withheld here). WhatsApp number with the **+20 (Egypt)** country code.
 - "Meet the team":
   - **Moatassem D.**, CEO (linkedin.com/in/moatassem-abdelhaleem)
   - **M. Rashad**, CTO (linkedin.com/in/rashaddism)
@@ -126,9 +126,9 @@
 ## 2. Founders and team
 
 **OS-10: Moatassem personally handles customer contact.**
-- App Store developer reply (≈2026-10-28): "...let me know what happened on the support email, I'll personally look into the matter: **moatassem@promoat.ai**".
+- App Store developer reply (≈2026-10-28): "...let me know what happened on the support email, I'll personally look into the matter: **[a named person's address at promoat.ai, withheld here]**".
 - Play replies dated 2026-10-28: "Unfortunately I can't afford to create free videos for everyone **as a small business owner**...".
-- The Play support email is moatassem@techhive.dev.
+- The Play support email is the same named address at the agency's domain (withheld here).
 - Sources: App Store US page and RSS (`appstore_web_id6754813873_us.html`, `appstore_rss_reviews_us.json`), `googleplay_scraper_app_and_reviews.json`
 - Source date: 2026-10-28
 - Accessed: 2026-10-31
@@ -463,7 +463,7 @@ No method, data or third-party confirmation is given.
 - This is noted as an observation only. The authenticity of these reviews was not assessed.
 - Type: OBSERVED
 
-**OS-46: Developer responses.** Most negative Play reviews received a templated reply on 2026-10-28, and the App Store US reply was around the same date. Earlier replies are dated 2026-03-12. The tone is personal and first-person, and replies point to moatassem@promoat.ai.
+**OS-46: Developer responses.** Most negative Play reviews received a templated reply on 2026-10-28, and the App Store US reply was around the same date. Earlier replies are dated 2026-03-12. The tone is personal and first-person, and replies point to a named person's address at promoat.ai (withheld here).
 - Type: OBSERVED
 
 **OS-47: No Trustpilot or Reddit feedback was found.** Trustpilot has no page for promoat.ai (WebFetch returned 404). No Reddit discussion turned up in search, and direct Reddit and Product Hunt access returned 403.
