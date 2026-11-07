@@ -18,9 +18,9 @@ Last updated: 2026-11-07 (UTC). Read this first if you resume the work in a new 
 - Rules that still apply: no copying of Promoat code/assets/text, no bypassing auth/limits/protections, no load tests,
   no third-party data, secrets never in files or reports.
 - **2026-11-07:** the launch coordinator session, acting on the owner's order of that day, asked for original, generic
-  UI patterns from this teardown. Being written as `UI_PATTERNS_AR.md` (committed separately once checked): it names
-  no other product, copies no Promoat text, code or assets, and no paid case is run for it. No conflict with the
-  owner's rulings above was found.
+  UI patterns from this teardown. Written as `UI_PATTERNS_AR.md` and checked by an accuracy pass and a
+  copying/scope pass: it names no other product, copies no Promoat text, code or assets, and no paid case was run for
+  it. No conflict with the owner's rulings above was found.
 
 ## State
 | Area | Status |
@@ -32,7 +32,7 @@ Last updated: 2026-11-07 (UTC). Read this first if you resume the work in a new 
 | Paid plan | **Stripe Checkout link for Weekly $9.99 handed to the owner on 2026-10-31; no payment received by 2026-11-07; the link has expired** |
 | Paid benchmark matrix (B1, B2×2, B4, B5, B6, B7, idempotency duplicate) | Pending payment. Inputs ready in `benchmark/inputs/` |
 | Android | Not testable here (no KVM, no official APK without a signed-in device). Documented in AND-01 |
-| Deliverables | `PROMOAT_DOSSIER.md`, `EVIDENCE_INDEX.csv`, `COST_LEDGER.csv`, `BENCHMARK_RESULTS.csv`, `EXECUTIVE_SUMMARY_AR.md`, `OPEN_MODELS_SHORTLIST.md` (2026-11-01), `UI_PATTERNS_AR.md` (2026-11-07, in progress), this file |
+| Deliverables | `PROMOAT_DOSSIER.md`, `EVIDENCE_INDEX.csv`, `COST_LEDGER.csv`, `BENCHMARK_RESULTS.csv`, `EXECUTIVE_SUMMARY_AR.md`, `OPEN_MODELS_SHORTLIST.md` (2026-11-01), `UI_PATTERNS_AR.md` (2026-11-07), this file |
 
 ## Where things are
 - Pre-registered plan: `benchmark/BENCHMARK_PLAN.md` (first commit, before any generation).
@@ -48,7 +48,8 @@ Last updated: 2026-11-07 (UTC). Read this first if you resume the work in a new 
 
 ## Public vs private storage
 - Public branch (GitHub, public repo): deliverables, scripts, pre-registered plan, synthetic inputs/outputs, API call log,
-  fingerprints, OSINT findings (no personal e-mails/addresses), and `evidence/WITHHELD_MANIFEST.csv` (SHA-256 of every
+  fingerprints, OSINT findings (no personal e-mails/addresses; the published contact addresses quoted until
+  2026-11-07 were then replaced by descriptions and remain only in the history of commit 84f676a), and `evidence/WITHHELD_MANIFEST.csv` (SHA-256 of every
   withheld file).
 - Private only: third-party page captures (Promoat docs/site/JS bundles, store listings, registries, search snippets),
   rendered page texts, and screenshots showing the research account. They are attached to the private report page
