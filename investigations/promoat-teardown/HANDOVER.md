@@ -2,6 +2,13 @@
 
 Last updated: 2026-11-07 (UTC). Read this first if you resume the work in a new session.
 
+## Session pause (2026-11-11, before a restart)
+Branch `claude/promoat-almarji-investigation-ytt57u`, head before this note `a914cdf` (equal to origin). Nothing was
+running: no workflow, no API job, no paid call, no write to any other system. Waiting for the owner's word: the
+payment that unblocks the paid matrix (a new Checkout link is needed), the listening verdict on the audio samples,
+and whether to add `UI_PATTERNS_AR.md` to the private report page. Exact next step: none in progress; if the owner
+pays, follow "How to resume the paid matrix" below, starting with `GET /usage/summary`.
+
 ## Remaining items (status on 2026-11-07)
 - Paid benchmark matrix (B1, B2×2, B4, B5, B6, B7, idempotency duplicate): **blocked, waiting for the owner's payment**. Balance is still 2 credits (free `GET /usage/summary`, 2026-11-07 13:13Z); the 2026-10-31 Checkout link has expired, so a new one is needed; inputs ready in `benchmark/inputs/`.
 - Human audio evaluation (Levantine TTS sample and the B0 clip): **waiting for the owner's listening** against `benchmark/BENCHMARK_PLAN.md`; open point: Whisper heard «تلاتة بعشرين ألف» as «23 ألف».
